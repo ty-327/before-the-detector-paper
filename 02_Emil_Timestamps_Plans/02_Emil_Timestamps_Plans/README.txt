@@ -1,17 +1,19 @@
 COSE Revision 1 — Emil: analysis plans and timestamps
-Reviewer comment R2.1 | Updated 20 November 2026
+Reviewer comment R2.1 | Updated 23 November 2026
 
 This separate packet contains the original planning documents, their unchanged
 edited public copies, source identities, and the current Appendix A1 mapping.
 The verification covers these plan records and their manuscript mapping.
 
 READ
-public_copies/ — S1 and S2 documents prepared for public access.
+public_copies/ — S1 and S2 documents prepared for public access, with their
+README, editorial change record, provenance copy and SHA256SUMS.txt.
 originals_for_verification/ — unchanged originals for identity/metadata checks.
 current_mapping/Appendix_Table_A1.txt — current manuscript mapping, easy to read.
 The CSV contains the same cells. Appendix_A1_source.json records the source
 manuscript identities and exact extracted cells.
 provenance/PROVENANCE.csv — unchanged source/public-copy hashes and dates.
+The matching copy in public_copies/ keeps the public-copy references together.
 
 VERIFY
 Extract the ZIP, open its folder, and run:
@@ -25,7 +27,8 @@ A successful check establishes the listed files' hashes/sizes, the four DOCX
 files' recorded identities and embedded dates, valid DOCX ZIP/XML, and agreement
 between the current mapping CSV and its included source extract. The mapping was
 copied from the authorised November 18 manuscript and rechecked against the
-current clean manuscript and standalone Appendix A. Table A1 and the original plan wording are
+delivered clean manuscript, standalone Appendix A and combined Supplementary
+Material. All 20 table cells agree. Table A1 and the original plan wording are
 unchanged. Appendix_A1_source.json records the current and earlier identities.
 
 RECORDED DATES

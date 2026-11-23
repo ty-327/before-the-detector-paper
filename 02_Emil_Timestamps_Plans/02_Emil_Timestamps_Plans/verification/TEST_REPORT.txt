@@ -1,11 +1,34 @@
-Verification of the clean reading revision — 20 November 2026
+Verification of the corrected plan and timestamp packet — 23 November 2026
 
-PASS: 12 listed files match their SHA-256 hashes and sizes.
+PASS: 16 listed files match their SHA-256 hashes and sizes.
 PASS: 4 plan DOCX files match the recorded identities and embedded UTC dates; ZIP/XML checks passed.
 PASS: 4 current Appendix A1 rows match the included source extract.
 Scope: file identity, embedded metadata and the supplied mapping only.
 Public registration, public deposit, first execution and scientific results are not established by this check.
 
-Appendix A1 was independently re-extracted from the current clean manuscript and standalone Appendix A. All table cells match the original mapping. Original plans, public copies and their embedded metadata retain their exact bytes.
+PUBLIC-COPY CHECKSUMS
+EDITORIAL_CHANGES.md: OK
+PROVENANCE.csv: OK
+README.md: OK
+S1_KeyBan_Analysis_Plan_Public_Copy.docx: OK
+S2_Signature_Specification_Public_Copy.docx: OK
 
-The verification algorithms and protected inputs match the preceding package exactly. Earlier deliberate-error receipts remain valid for those unchanged inputs.
+SOURCE PRESERVATION
+Both original DOCX plans, both public-copy DOCX plans and PROVENANCE.csv match
+the retained v54 source archive byte for byte. The verification helper is
+unchanged from the delivered 20 November packet. All 20 Table A.1 cells match
+the delivered manuscript, standalone Appendix A and combined Supplementary Material.
+
+CORRECTIONS
+The current manuscript fingerprint now identifies the delivered clean manuscript.
+The previous fingerprint is retained in the source record history.
+The public-copy editorial record, README, provenance copy and checksum list are
+restored. The restored README points to Appendix Table A.1.
+
+FAILURE CONTROLS
+Six isolated test copies of the delivered packet were rejected with exit code 1:
+missing original plan; changed original timestamp; altered public plan text;
+changed mapping cell; missing provenance file; invalid manifest JSON.
+For the timestamp, public-text and mapping tests, the changed file hashes in
+the test manifest were also refreshed; the independent checks still rejected them.
+The unchanged helper is retained in this corrected packet.

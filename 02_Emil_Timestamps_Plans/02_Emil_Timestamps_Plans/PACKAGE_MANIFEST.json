@@ -1,6 +1,6 @@
 {
   "package": "COSE_Revision1_Emil_Timestamps_Plans",
-  "prepared_utc_date": "2026-11-20",
+  "prepared_utc_date": "2026-11-23",
   "reviewer_comment": "R2.1",
   "source_archive": "COSE_Emil_Timestamps_v54.zip",
   "source_archive_sha256": "be7ec2cac5ba5f5c4e1b34a15548623018aeb739c981e3b2d7099d3f8e1bc8e9",
@@ -13,8 +13,8 @@
     },
     {
       "path": "README.txt",
-      "bytes": 2327,
-      "sha256": "7f57fe2d4c226ff1091bdb45f3ed63893011537836a6559b8dc3e82d2591550c"
+      "bytes": 2547,
+      "sha256": "3b4e6b2e94d3d0f73e63d78b59a48074d0eaae40188df9f06e0b0d51e4800146"
     },
     {
       "path": "VERIFY_PLANS.py",
@@ -23,8 +23,8 @@
     },
     {
       "path": "current_mapping/Appendix_A1_source.json",
-      "bytes": 3421,
-      "sha256": "ad3dda148fda9069cc8429fc96e95f78ce061851f69e0acbf0be88112cb91d64"
+      "bytes": 3774,
+      "sha256": "dbb61182caba3e91bea5927949b1ba5f2199f5d8883d04514545359042e82857"
     },
     {
       "path": "current_mapping/Appendix_Table_A1.csv",
@@ -52,6 +52,21 @@
       "sha256": "97f3d671d17115a28d43e3beac23d374041e0ac9e05f75b19951fa53250c7c7e"
     },
     {
+      "path": "public_copies/EDITORIAL_CHANGES.md",
+      "bytes": 2249,
+      "sha256": "6a24ef5f917ce15843832d76814a5dee30b35de97071d10221478e1480d8cd15"
+    },
+    {
+      "path": "public_copies/PROVENANCE.csv",
+      "bytes": 936,
+      "sha256": "97f3d671d17115a28d43e3beac23d374041e0ac9e05f75b19951fa53250c7c7e"
+    },
+    {
+      "path": "public_copies/README.md",
+      "bytes": 2532,
+      "sha256": "010432f34e3d886984db31f52979193d4119d1090c0b02110ff9b5561fa1b0da"
+    },
+    {
       "path": "public_copies/S1_KeyBan_Analysis_Plan_Public_Copy.docx",
       "bytes": 41322,
       "sha256": "44e1a004a473f43178ec54597b1800f020c90de04649874a219f1f7c68f3f22a"
@@ -62,9 +77,14 @@
       "sha256": "b4fb52f6c62904ab630f1d8bb10c70bbeb68721d4e2ba12c81fda5810e779c79"
     },
     {
+      "path": "public_copies/SHA256SUMS.txt",
+      "bytes": 461,
+      "sha256": "ec96e47d8ef1837dbc044ed72a7336d08466b1ba4abbec38de2a14f1960648cb"
+    },
+    {
       "path": "verification/TEST_REPORT.txt",
-      "bytes": 871,
-      "sha256": "b4d206a49b546f9e0ffc235e36f20c44703d00f1cab9c2e20fe3cc2787e15fc3"
+      "bytes": 1767,
+      "sha256": "226b46f4bcb1147c4b6ef08ef6b2cf53d209b62964883e853de7f96b00f0fdf6"
     }
   ]
 }

@@ -4,27 +4,15 @@ Repository containing files \& code relevant to the COSE paper "Before the Detec
 
 
 
-##### This repository contains three folders:
+##### This repository contains:
 
-###### COSE\_Emil\_Timestamps\_v54
-
-Contains Emil's R2.1 comment, original and edited public plans, directly checked timestamps/hashes and the rule-to-analysis table.
-
-
-
-
-
-###### COSE\_Main\_Code\_Checked\_v54
-
-Contains current executable entry points, scientific scripts, frozen settings, input inventories, historical reference tables, archived execution evidence and v54 test receipts.
+* 01\_Main\_Code
+* 02\_Emil\_Timestamps\_Plans
+* 03\_Ty\_Reproducibility\_Data
+* 04\_Ty\_Figures\_2\_\&\_3\_Code
+* COSE\_Supplementary\_Material
 
 
 
-
-
-###### COSE\_Ty\_Reproducibility\_v54
-
-Contains Ty's R2.2 comment, current technical supplement, output guide and execution/publication acceptance instructions.
-
-
+Each folder has a README file inside of it to explain its contents. 
 

@@ -1,10 +1,10 @@
 {
   "source_filename": "COSE_Manuscript_Clean_19Nov2026.docx",
-  "source_sha256": "86314b350c117293cff3ef20a34b856e9d786180afc79ced49d753a9e62d201c",
-  "source_section": "Appendix Table A1. Original decision rules and reported analyses.",
+  "source_sha256": "b536620db7dfbcbedb99ed195fabb6f95aa8342b1dae2906b420c589aa7c6bd6",
+  "source_section": "Appendix Table A.1. Original decision rules and reported analyses.",
   "source_view": "Clean reading text. Table A1 cells copied unchanged.",
   "clean_view_filename": "COSE_Manuscript_Clean_19Nov2026.docx",
-  "clean_view_sha256": "86314b350c117293cff3ef20a34b856e9d786180afc79ced49d753a9e62d201c",
+  "clean_view_sha256": "b536620db7dfbcbedb99ed195fabb6f95aa8342b1dae2906b420c589aa7c6bd6",
   "authorised_and_clean_table_cells_match": true,
   "columns": [
     "Test",
@@ -45,8 +45,8 @@
     "clean_view_sha256": "6e340b9548272d65ebd8d4d1c665b6f401a97c675c9c5acbb7e2a3f005e4d378"
   },
   "current_manuscript_check": {
-    "date": "2026-11-20",
-    "basis": "Table A1 re-extracted from the clean reading manuscript and standalone Appendix A.",
+    "date": "2026-11-23",
+    "basis": "All 20 Table A.1 cells independently compared with the delivered clean manuscript, standalone Appendix A and combined Supplementary Material.",
     "all_table_cells_match_original_extraction": true,
     "style_update_changes_Table_A1": false
   },
@@ -61,5 +61,10 @@
     "source_sha256": "6043a451d1d6517fc033356f6c29b25fa6c6039785bd2cbfd877808757359281",
     "clean_view_filename": "COSE_Manuscript_Clean_19Nov2026.docx",
     "clean_view_sha256": "b8ddac3975eb4244806bc96e111cb5c04e8656081ebbf963a909d5853f4bbeb3"
+  },
+  "previous_recorded_current_manuscript": {
+    "source_filename": "COSE_Manuscript_Clean_19Nov2026.docx",
+    "source_sha256": "86314b350c117293cff3ef20a34b856e9d786180afc79ced49d753a9e62d201c",
+    "clean_view_sha256": "86314b350c117293cff3ef20a34b856e9d786180afc79ced49d753a9e62d201c"
   }
 }
