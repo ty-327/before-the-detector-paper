@@ -1,0 +1,17 @@
+Command: ["/workspace/scratch/e6c1950c91f3/claude_review_20261119/validation_env/bin/python", "/workspace/scratch/e6c1950c91f3/submission_build_20261119/code_work/final_replay/scripts/validate_fe_engine.py"]
+
+[
+  {
+    "two_way_fixed_effects": false,
+    "max_coefficient_error": 9.992007221626409e-16,
+    "max_item_covariance_error": 2.8796409701215e-16,
+    "injection_weight_identity_error": 2.220446049250313e-16
+  },
+  {
+    "two_way_fixed_effects": true,
+    "max_coefficient_error": 5.564992910933597e-15,
+    "max_item_covariance_error": 2.255140518769849e-16,
+    "max_two_way_covariance_error": 2.3522850334245504e-15,
+    "injection_weight_identity_error": 4.6324055702484657e-14
+  }
+]

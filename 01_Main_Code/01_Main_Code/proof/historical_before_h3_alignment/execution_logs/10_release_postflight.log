@@ -1,0 +1,5 @@
+Command: ["/workspace/scratch/e6c1950c91f3/claude_review_20261119/validation_env/bin/python", "/workspace/scratch/e6c1950c91f3/submission_build_20261119/staging/04_Code_and_Data/01_Main_Code/verify_release.py", "--root", "/workspace/scratch/e6c1950c91f3/submission_build_20261119/staging/04_Code_and_Data/01_Main_Code"]
+
+Raw archive not supplied to this preflight; verify it before running reproduce.py.
+Checked 133 packaged files; mismatches: 0
+No analytical code, settings, outputs or raw data were modified.

@@ -1,0 +1,11 @@
+Verification of the clean reading revision — 20 November 2026
+
+INTEGRITY PASS: 27 listed files match their recorded SHA-256 hashes and sizes.
+STRUCTURE PASS: CSV types, recorded row counts and specified dataset scopes agree.
+597 candidate-definition rows contain 29 key-dependent container exclusion flags.
+STATUS: Retained-data integrity and structure checks are complete.
+For H3 display agreement and the remaining corpus-wide claim, use the companion manuscript comparison.
+
+The current manuscript retains the four approved H3 displays. The companion comparison reports 16 PASS, 0 MISMATCH and one corpus claim awaiting evidence. All numerical records, historical source outputs and settings retain their exact bytes.
+
+The verification algorithms and protected inputs match the preceding package exactly. Earlier deliberate-error receipts remain valid for those unchanged inputs.

@@ -1,0 +1,128 @@
+{
+  "prepared_date": "2026-11-17",
+  "purpose": "Compact reviewer inventory preserving selected columns from the archived classification record, plus an unchanged H3 comparison table.",
+  "source_archive": {
+    "file": "COSE_Main_Code_Checked_v54.zip",
+    "sha256": "df9f33f4ef8e60ff4711eeee948b459894c9ae1f210d8b521ca81c661fdb5760",
+    "bytes": 155223546
+  },
+  "classification_source": {
+    "path_in_source_archive": "executed_run/corrected_analysis/item_classification_audit.csv",
+    "sha256": "88902d8a53ebb20cd55ffa7ef6779d537bc36c1acc79be4c179ff2ea7164fdc2",
+    "bytes": 11448443,
+    "rows": 22495,
+    "columns_in_source": [
+      "item_id",
+      "file",
+      "item",
+      "historical_class",
+      "whole_word_class",
+      "raw_rows",
+      "usable_raw_rows",
+      "invalid_numeric_rows",
+      "exact_duplicate_rows",
+      "duplicate_timestamps",
+      "nonascending_timestamp_steps",
+      "negative_units",
+      "zero_units_rows",
+      "nonpositive_price",
+      "date_text_invalid",
+      "date_text_unix_day_mismatch",
+      "subdaily_days",
+      "first_day",
+      "last_day",
+      "observed_days",
+      "internal_absent_days",
+      "pre_n_obs",
+      "pre_med_price",
+      "pre_med_units",
+      "mean_raw_price",
+      "all_med_units",
+      "container_case",
+      "container_broad",
+      "decoded_example",
+      "recorded_units",
+      "recorded_value",
+      "price_gt100_units",
+      "price_gt100_value",
+      "price_gt1000_rows",
+      "price_max",
+      "historical_arm",
+      "whole_word_arm",
+      "simple_percent_decode",
+      "conversion_table_decoded",
+      "name_in_conversion_table",
+      "decode_changes_if_underscores_preserved",
+      "first_day_UTC",
+      "last_day_UTC",
+      "eligibility_reason"
+    ]
+  },
+  "classification_projection": {
+    "file": "ITEM_CLASSIFICATIONS.csv",
+    "sha256": "9aa2e07f604402207d8f95a520dedd292566d57d52efb0a7b1e7b5a4dd6ad7c6",
+    "bytes": 5423945,
+    "rows": 22495,
+    "columns": [
+      "item_id",
+      "file",
+      "item",
+      "historical_class",
+      "whole_word_class",
+      "pre_n_obs",
+      "pre_med_price",
+      "pre_med_units",
+      "historical_arm",
+      "whole_word_arm",
+      "container_case",
+      "container_broad",
+      "eligibility_reason"
+    ],
+    "transformation": "Column projection only. Source row order and every retained CSV field string, including empty fields and numerical precision, are preserved. Output uses UTF-8 and LF record separators.",
+    "cell_comparisons": 292435,
+    "all_retained_cells_equal_source": true,
+    "unique_item_ids": 22495,
+    "whole_word_arm_counts": {
+      "control": 1580,
+      "excluded": 20291,
+      "key": 27,
+      "substitute": 597
+    },
+    "historical_arm_counts": {
+      "control": 1580,
+      "excluded": 20288,
+      "key": 30,
+      "substitute": 597
+    }
+  },
+  "h3_index_copy": {
+    "file": "H3_INDEX_CONSTRUCTION.csv",
+    "source_path_in_archive": "executed_run/tables/h3_index_construction_sensitivity.csv",
+    "source_sha256": "dbab412b3fddb69c1dd3eb5f1dcd66793ba5a99cbb597adabf8804f4888a86b5",
+    "copy_sha256": "dbab412b3fddb69c1dd3eb5f1dcd66793ba5a99cbb597adabf8804f4888a86b5",
+    "bytes": 8472,
+    "rows": 64,
+    "byte_identical_to_source": true
+  },
+  "implementation_sources": {
+    "scripts/audit_raw.py": "9ccc39583524723b515bc5bd898384d3b36d8ce947ec097f66d4998edd0a98a8",
+    "scripts/supplement_data_audit.py": "4b2a221484bcc5822930610266cc185aa2136e81c5802c5af02d73341212f2c5",
+    "scripts/descriptive_reconstruction.py": "5e3b66e53e1a902bb7e808f7dfd81693bb13af45593d61ae3f3468cbbf46a36f",
+    "revision/container_definitions.csv": "51ce29dc3969a4e688bcc8c3efcaa0cd4b5eaa0b73d842aa4a5123ce95c35ea8"
+  },
+  "scope": "This preparation projects existing audited output and copies the existing index table. It does not re-extract raw data, rerun item classification, or recompute the H3 index.",
+  "source_archive_member_verification": [
+    {
+      "source_path": "executed_run/corrected_analysis/item_classification_audit.csv",
+      "archive_member": "executed_run/corrected_analysis/item_classification_audit.csv",
+      "source_matches_archive_member_byte_for_byte": true,
+      "sha256": "88902d8a53ebb20cd55ffa7ef6779d537bc36c1acc79be4c179ff2ea7164fdc2"
+    },
+    {
+      "source_path": "executed_run/tables/h3_index_construction_sensitivity.csv",
+      "archive_member": "executed_run/tables/h3_index_construction_sensitivity.csv",
+      "source_matches_archive_member_byte_for_byte": true,
+      "sha256": "dbab412b3fddb69c1dd3eb5f1dcd66793ba5a99cbb597adabf8804f4888a86b5"
+    }
+  ]
+}

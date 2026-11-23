@@ -1,0 +1,17 @@
+{
+  "case": "existing_replay_rejects_post_generation_changed_draw",
+  "expected": "REJECT",
+  "exit_code": 1,
+  "passed": true,
+  "mutation": "noise_indices[0] changed from 3 to 4",
+  "original_pass_receipt_unchanged": true,
+  "execution_error": "Current replay evidence failed verification: Traceback (most recent call last):\n  File \"/workspace/scratch/e6c1950c91f3/submission_build_20261119/code_work/cached_replay_mutation/scripts/check_results.py\", line 155, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/scratch/e6c1950c91f3/submission_build_20261119/code_work/cached_replay_mutation/scripts/check_results.py\", line 72, in main\n    evidence=verify_current_evidence()\n             ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/e6c1950c91f3/submission_build_20261119/code_work/cached_replay_mutation/scripts/check_results.py\", line 44, in verify_current_evidence\n    raise ValueError('Current frozen-array verification failed: '+relative+':'+spec['name'])\nValueError: Current frozen-array verification failed: evidence/dell/equal_cumulative/all_TWFE_randomness.npz:noise_indices",
+  "command": [
+    "/workspace/scratch/e6c1950c91f3/claude_review_20261119/validation_env/bin/python",
+    "/workspace/scratch/e6c1950c91f3/submission_build_20261119/staging/04_Code_and_Data/01_Main_Code/run_revision1.py",
+    "--existing-replay",
+    "/workspace/scratch/e6c1950c91f3/submission_build_20261119/code_work/cached_replay_mutation",
+    "--report-dir",
+    "/workspace/scratch/e6c1950c91f3/submission_build_20261119/code_work/cached_replay_rejection_report"
+  ]
+}

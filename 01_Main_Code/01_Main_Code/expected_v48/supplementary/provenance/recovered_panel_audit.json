@@ -1,0 +1,78 @@
+{
+  "rows": 3899490,
+  "items": 2141,
+  "date_min": "2013-08-13 00:00:00+00:00",
+  "date_max": "2024-06-15 00:00:00+00:00",
+  "duplicates_item_day": 0,
+  "missing_cells": {
+    "day": 0,
+    "units": 0,
+    "vwap": 0,
+    "item": 0,
+    "group": 0,
+    "arm": 0
+  },
+  "negative_units": 0,
+  "zero_units": 0,
+  "arm_items": {
+    "control": 1514,
+    "key": 30,
+    "substitute": 597
+  },
+  "historical_key_names": [
+    "CS:GO Capsule Key",
+    "CS:GO Case Key",
+    "CS20 Case Key",
+    "Chroma 2 Case Key",
+    "Chroma 3 Case Key",
+    "Chroma Case Key",
+    "Clutch Case Key",
+    "Community Sticker Capsule 1 Key",
+    "Danger Zone Case Key",
+    "Falchion Case Key",
+    "Gamma 2 Case Key",
+    "Gamma Case Key",
+    "Glove Case Key",
+    "Horizon Case Key",
+    "Huntsman Case Key",
+    "Operation Breakout Case Key",
+    "Operation Hydra Case Key",
+    "Operation Phoenix Case Key",
+    "Operation Vanguard Case Key",
+    "Operation Wildfire Case Key",
+    "Prisma Case Key",
+    "Revolver Case Key",
+    "Shadow Case Key",
+    "Spectrum 2 Case Key",
+    "Spectrum Case Key",
+    "Sticker | Keyd Stars | Katowice 2015",
+    "Sticker | Keyd Stars (Foil) | Katowice 2015",
+    "Sticker | Keyd Stars (Holo) | Katowice 2015",
+    "Winter Offensive Case Key",
+    "eSports Key"
+  ],
+  "non_whole_word_key_matches": [
+    "Sticker | Keyd Stars | Katowice 2015",
+    "Sticker | Keyd Stars (Foil) | Katowice 2015",
+    "Sticker | Keyd Stars (Holo) | Katowice 2015"
+  ],
+  "window_21": {
+    "start": "2019-10-07 00:00:00+00:00",
+    "end": "2019-11-18 00:00:00+00:00",
+    "observed_rows": 55944,
+    "items": 2078,
+    "expected_complete_rows": 89354,
+    "absent_item_days": 33410,
+    "includes_Shattered_Web": true
+  },
+  "window_90": {
+    "start": "2019-07-30 00:00:00+00:00",
+    "end": "2020-01-26 00:00:00+00:00",
+    "observed_rows": 241906,
+    "items": 2099,
+    "expected_complete_rows": 379919,
+    "absent_item_days": 138013,
+    "includes_Shattered_Web": true
+  },
+  "event_study_max_absolute_difference": 8.881784197001252e-16
+}

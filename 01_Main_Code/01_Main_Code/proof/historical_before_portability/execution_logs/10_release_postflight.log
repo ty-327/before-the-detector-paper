@@ -1,0 +1,5 @@
+Command: ["/workspace/scratch/e6c1950c91f3/cose_review_20261117/test_environment/bin/python", "/workspace/scratch/e6c1950c91f3/cose_reviewer_20261117/deliverables/COSE_Reviewer_Code_v56/verify_release.py", "--root", "/workspace/scratch/e6c1950c91f3/cose_reviewer_20261117/deliverables/COSE_Reviewer_Code_v56"]
+
+Raw archive not supplied to this preflight; verify it before running reproduce.py.
+Checked 89 packaged files; mismatches: 0
+No analytical code, settings, outputs or raw data were modified.

@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "table_count": 10,
+  "all_tables_byte_identical": true,
+  "tables": [
+    {
+      "table": "BASELINES_AND_DENOMINATORS.csv",
+      "baseline_sha256": "971d53996d5472522a25a1bfd59d6fff5d27712ea5a19781d523c53e9af0e823",
+      "current_sha256": "971d53996d5472522a25a1bfd59d6fff5d27712ea5a19781d523c53e9af0e823",
+      "byte_identical": true
+    },
+    {
+      "table": "CALIBRATION_TARGETS.csv",
+      "baseline_sha256": "8980fab5dee5a0e288e827e320d812f80e5a237140d8cb6c9a280d299143614b",
+      "current_sha256": "8980fab5dee5a0e288e827e320d812f80e5a237140d8cb6c9a280d299143614b",
+      "byte_identical": true
+    },
+    {
+      "table": "FIGURE4_DATA.csv",
+      "baseline_sha256": "e032ec0890ba0826ff96072279fec8060cf6c9bb167788a8fa45bec1896a8ae6",
+      "current_sha256": "e032ec0890ba0826ff96072279fec8060cf6c9bb167788a8fa45bec1896a8ae6",
+      "byte_identical": true
+    },
+    {
+      "table": "FINAL_RESULTS.csv",
+      "baseline_sha256": "9db14ebb5ce3216ee170067d9e510a4ab1cad5de17a68e3245e9630ef067cf75",
+      "current_sha256": "9db14ebb5ce3216ee170067d9e510a4ab1cad5de17a68e3245e9630ef067cf75",
+      "byte_identical": true
+    },
+    {
+      "table": "GRAPHICAL_ABSTRACT_DATA.csv",
+      "baseline_sha256": "e032ec0890ba0826ff96072279fec8060cf6c9bb167788a8fa45bec1896a8ae6",
+      "current_sha256": "e032ec0890ba0826ff96072279fec8060cf6c9bb167788a8fa45bec1896a8ae6",
+      "byte_identical": true
+    },
+    {
+      "table": "MATCHED_COMPARISONS.csv",
+      "baseline_sha256": "e53541a30d8db48aff9f2b287063396f2c2c61c0c77cc2f6d7ea953614079c4c",
+      "current_sha256": "e53541a30d8db48aff9f2b287063396f2c2c61c0c77cc2f6d7ea953614079c4c",
+      "byte_identical": true
+    },
+    {
+      "table": "PRIMARY_SCENARIO_RESULTS.csv",
+      "baseline_sha256": "d3e720cb6b694c8d3997ea12d31942af30127b4c8859721bac0dd9df9d1b260f",
+      "current_sha256": "d3e720cb6b694c8d3997ea12d31942af30127b4c8859721bac0dd9df9d1b260f",
+      "byte_identical": true
+    },
+    {
+      "table": "RECOVERY_CURVES.csv",
+      "baseline_sha256": "049285c6ed05c9053d06aae334f7a2a2180b156256ec98e862c0bb78a5356a4e",
+      "current_sha256": "049285c6ed05c9053d06aae334f7a2a2180b156256ec98e862c0bb78a5356a4e",
+      "byte_identical": true
+    },
+    {
+      "table": "RESULT_TO_SOURCE_LEDGER.csv",
+      "baseline_sha256": "6a2541366cfb14a348b924529262d2cd3c639f1a8b635f733344d177342f8139",
+      "current_sha256": "6a2541366cfb14a348b924529262d2cd3c639f1a8b635f733344d177342f8139",
+      "byte_identical": true
+    },
+    {
+      "table": "WEIGHT_FUNCTION_CHECKS.csv",
+      "baseline_sha256": "36a5a1af9b2cfb296e9582e994770682667ab364f22f1219d26d541d0f536a2e",
+      "current_sha256": "36a5a1af9b2cfb296e9582e994770682667ab364f22f1219d26d541d0f536a2e",
+      "byte_identical": true
+    }
+  ],
+  "scope": "Rebuilt CSV summaries compared with the independent original 19 November candidate replay; no raw-data/model refit"
+}

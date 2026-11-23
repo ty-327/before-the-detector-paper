@@ -1,0 +1,65 @@
+{
+  "source_filename": "COSE_Manuscript_Clean_19Nov2026.docx",
+  "source_sha256": "86314b350c117293cff3ef20a34b856e9d786180afc79ced49d753a9e62d201c",
+  "source_section": "Appendix Table A1. Original decision rules and reported analyses.",
+  "source_view": "Clean reading text. Table A1 cells copied unchanged.",
+  "clean_view_filename": "COSE_Manuscript_Clean_19Nov2026.docx",
+  "clean_view_sha256": "86314b350c117293cff3ef20a34b856e9d786180afc79ced49d753a9e62d201c",
+  "authorised_and_clean_table_cells_match": true,
+  "columns": [
+    "Test",
+    "Original rule",
+    "Reported analysis",
+    "Departure or qualification"
+  ],
+  "rows": [
+    [
+      "H1",
+      "Anomalous pre-intervention key accumulation against a fungible baseline; interrupted time-series/trend-break test.",
+      "Descriptive key-to-candidate turnover comparison.",
+      "The planned time-series model output has not been verified; the descriptive comparison is not that model."
+    ],
+    [
+      "H2",
+      "Positive candidate/control discontinuity; item fixed effects; 21-day primary and 90-day secondary windows; flat pre-trends and no significant placebo effect.",
+      "Original item-effects contrast, with the requested item/date-effects comparison added.",
+      "The placebo criterion is not met. The result tests direction and is not a well-identified causal effect. Added response profiles and simulations are exploratory."
+    ],
+    [
+      "H3",
+      "Persistent legacy-key premium against fungible and general-market indices.",
+      "Legacy-key prices compared with the fungible collectibles index.",
+      "The planned general-market-index comparison is not reported."
+    ],
+    [
+      "S1b",
+      "More fungible spikes than in liquidity-matched controls, with reversion within three days; otherwise withdraw the price-anomaly interpretation.",
+      "Spike rates compared within liquidity groups; the price-anomaly interpretation is withdrawn.",
+      "The 25% reversion tolerance and full-sample price filter are implementation choices. The plan records an earlier 80-item prototype."
+    ]
+  ],
+  "original_extraction": {
+    "source_filename": "COSE_Manuscript_Reviewer_Changes_18Nov2026.docx",
+    "source_sha256": "978354df5738b1da5432b235697c14317456e800616b4f5ac302da554e13724d",
+    "clean_view_filename": "COSE_Manuscript_Clean_19Nov2026.docx",
+    "clean_view_sha256": "6e340b9548272d65ebd8d4d1c665b6f401a97c675c9c5acbb7e2a3f005e4d378"
+  },
+  "current_manuscript_check": {
+    "date": "2026-11-20",
+    "basis": "Table A1 re-extracted from the clean reading manuscript and standalone Appendix A.",
+    "all_table_cells_match_original_extraction": true,
+    "style_update_changes_Table_A1": false
+  },
+  "prior_h3_aligned_manuscript": {
+    "date": "2026-11-19",
+    "source_sha256": "b8f7f6bf62eda1edbb2165849f6e6278764756de76b192f2049f4b8930790b8d",
+    "clean_view_sha256": "bad223a3d7766ecf9209fa9f9de3bf29c054fb1a77b59d6578c99efd9985e1e2"
+  },
+  "previous_editorial_manuscript": {
+    "source_archive_sha256": "3be609960fe99108b025cc27c257c0acc585110d93ce81857f906d9596847dd2",
+    "source_filename": "COSE_Manuscript_Reviewer_Changes_18Nov2026.docx",
+    "source_sha256": "6043a451d1d6517fc033356f6c29b25fa6c6039785bd2cbfd877808757359281",
+    "clean_view_filename": "COSE_Manuscript_Clean_19Nov2026.docx",
+    "clean_view_sha256": "b8ddac3975eb4244806bc96e111cb5c04e8656081ebbf963a909d5853f4bbeb3"
+  }
+}

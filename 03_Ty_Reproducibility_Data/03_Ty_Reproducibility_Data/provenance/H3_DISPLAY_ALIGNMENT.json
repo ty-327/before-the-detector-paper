@@ -1,0 +1,120 @@
+{
+  "reviewer_comment": "R2.2",
+  "author_approval_date": "2026-11-19",
+  "basis": "Four H3 display corrections approved by the author and checked against the retained 27-key index calculation.",
+  "previous_manuscript_identity": {
+    "filename": "COSE_Manuscript_Reviewer_Changes_18Nov2026.docx",
+    "sha256": "978354df5738b1da5432b235697c14317456e800616b4f5ac302da554e13724d"
+  },
+  "corrected_manuscripts": [
+    {
+      "filename": "COSE_Manuscript_Reviewer_Changes_18Nov2026.docx",
+      "sha256": "b8f7f6bf62eda1edbb2165849f6e6278764756de76b192f2049f4b8930790b8d"
+    },
+    {
+      "filename": "COSE_Manuscript_Clean_19Nov2026.docx",
+      "sha256": "bad223a3d7766ecf9209fa9f9de3bf29c054fb1a77b59d6578c99efd9985e1e2"
+    }
+  ],
+  "data_file": "data/H3/INDEX_CONSTRUCTION_27KEYS.csv",
+  "data_sha256": "b1a4a2570ec1d2a984887ff44a18b7bfba1fd61ca1e79e5f3d2a161acd939a00",
+  "source_file": "provenance/H3_INDEX_CONSTRUCTION_source.csv",
+  "source_sha256": "dbab412b3fddb69c1dd3eb5f1dcd66793ba5a99cbb597adabf8804f4888a86b5",
+  "corrections": [
+    {
+      "entry": "2020 key price",
+      "raw": "4.818231963087509",
+      "display": "4.82",
+      "approved": "4.82",
+      "previous_manuscript_display": "4.81"
+    },
+    {
+      "entry": "2023 key price",
+      "raw": "10.567414764556059",
+      "display": "10.57",
+      "approved": "10.57",
+      "previous_manuscript_display": "10.54"
+    },
+    {
+      "entry": "2017–2018 ratio range",
+      "raw_min": "5.418736756558733",
+      "raw_max": "5.6417089466607475",
+      "display": "5.4–5.6",
+      "approved": "5.4–5.6",
+      "previous_manuscript_display": "5.4–5.7"
+    },
+    {
+      "entry": "2020–2024 ratio range",
+      "raw_min": "4.8485532793972235",
+      "raw_max": "6.71743321933427",
+      "display": "4.8–6.7",
+      "approved": "4.8–6.7",
+      "previous_manuscript_display": "4.9–6.7"
+    }
+  ],
+  "annual_records_modified": false,
+  "index_recipe_modified": false,
+  "fresh_raw_data_reconstruction": false,
+  "reviewer_response_workbook": {
+    "filename": "COSE_Reviewer_Response_Restart_18Nov2026.xlsx",
+    "sha256": "64b2417cddbec473fa4eeed88997af37b82523dc67e0ff939c7bc564ef873766",
+    "updated_item": "R2.2"
+  },
+  "current_style_revision": {
+    "date": "2026-11-20",
+    "numerical_displays_unchanged": true,
+    "documents": {
+      "clean_manuscript": {
+        "filename": "COSE_Manuscript_Clean_19Nov2026.docx",
+        "path": "01_Manuscript/COSE_Manuscript_Clean_19Nov2026.docx",
+        "sha256": "86314b350c117293cff3ef20a34b856e9d786180afc79ced49d753a9e62d201c"
+      },
+      "clean_manuscript_pdf": {
+        "filename": "COSE_Manuscript_Clean_19Nov2026.pdf",
+        "path": "01_Manuscript/COSE_Manuscript_Clean_19Nov2026.pdf",
+        "sha256": "4039eaf5e5165cdc320fdaccf5f6c2df3760ea5310d9659d57afcec81de50085"
+      },
+      "appendix_docx": {
+        "filename": "COSE_Appendix_A_19Nov2026.docx",
+        "path": "05_Appendix_and_Supplements/COSE_Appendix_A_19Nov2026.docx",
+        "sha256": "4b70b1fb9b23af0c3ab50a7efd493300c91a42582ef66b7afef93d1bc098ed65"
+      },
+      "appendix_pdf": {
+        "filename": "COSE_Appendix_A_19Nov2026.pdf",
+        "path": "05_Appendix_and_Supplements/COSE_Appendix_A_19Nov2026.pdf",
+        "sha256": "a49010844d3eb82ec5cf5015ab39617f111577d5f7691c0ae1e5ba1b836c2f19"
+      },
+      "figure_2": {
+        "filename": "Figure_2.png",
+        "path": "03_Figures/Figure_2.png",
+        "sha256": "988d82abe076d6ad959720744317f4367de571b4387cdf8b00173eee3ff2572d"
+      },
+      "reviewer_workbook": {
+        "filename": "COSE_Reviewer_Response_Restart_18Nov2026.xlsx",
+        "path": "02_Reviewer_Response/COSE_Reviewer_Response_Restart_18Nov2026.xlsx",
+        "sha256": "b462150421ace7c3d9e53f40c82e28a5005e1f175238dae9417387059b525db2"
+      }
+    },
+    "clean_manuscript_only": true,
+    "basis": "The clean reading revision retains all four approved H3 corrections."
+  },
+  "previous_style_revision": {
+    "date": "2026-11-20",
+    "numerical_displays_unchanged": true,
+    "documents": {
+      "clean_manuscript": {
+        "filename": "COSE_Manuscript_Clean_19Nov2026.docx",
+        "sha256": "b8ddac3975eb4244806bc96e111cb5c04e8656081ebbf963a909d5853f4bbeb3"
+      },
+      "tracked_manuscript": {
+        "filename": "COSE_Manuscript_Reviewer_Changes_18Nov2026.docx",
+        "sha256": "6043a451d1d6517fc033356f6c29b25fa6c6039785bd2cbfd877808757359281"
+      },
+      "reviewer_workbook": {
+        "filename": "COSE_Reviewer_Response_Restart_18Nov2026.xlsx",
+        "sha256": "b462150421ace7c3d9e53f40c82e28a5005e1f175238dae9417387059b525db2"
+      }
+    },
+    "basis": "Current writing-style update retains all four approved H3 corrections."
+  }
+}

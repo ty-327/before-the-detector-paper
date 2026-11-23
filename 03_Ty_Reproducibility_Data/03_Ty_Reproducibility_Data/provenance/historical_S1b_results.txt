@@ -1,0 +1,50 @@
+==================================================================
+S1b RESULTS
+==================================================================
+
+PRIMARY — original Section 4.1.1 rule (mean price > USD 10):
+
+  FUNGIBLE (cases/capsules/stickers/graffiti)
+    spikes: 1,508   item-days: 682,611   rate: 2.209 per 1,000 item-days
+    idiosyncratic (peer moved <10%): 99.9%
+    median units at spike: 1
+    reversion within 3d (+/-25% of pre level): 8.0%
+
+  NON-FUNGIBLE (wear-designated skins/knives)
+    spikes: 18,292   item-days: 6,659,701   rate: 2.747 per 1,000 item-days
+    idiosyncratic (peer moved <10%): 99.6%
+    median units at spike: 1
+    reversion within 3d (+/-25% of pre level): 39.0%
+
+SECONDARY — all price levels (no $10 filter):
+
+  FUNGIBLE
+    spikes: 20,586   item-days: 11,146,712   rate: 1.847 per 1,000 item-days
+    idiosyncratic (peer moved <10%): 99.9%
+    median units at spike: 2
+    reversion within 3d (+/-25% of pre level): 15.2%
+
+  NON-FUNGIBLE
+    spikes: 150,708   item-days: 23,355,164   rate: 6.453 per 1,000 item-days
+    idiosyncratic (peer moved <10%): 99.6%
+    median units at spike: 8
+    reversion within 3d (+/-25% of pre level): 72.7%
+
+LIQUIDITY-MATCHED COMPARISON (spike rate per 1,000 item-days, by
+quintile of item median daily units, computed on the pooled corpus):
+    quintile        fungible   nonfungible
+    Q1                13.554        11.030
+    Q2                 3.252         7.442
+    Q3                 1.714         7.312
+    Q4                 0.292         6.275
+    Q5                 0.190         3.649
+
+DECISION RULE (committed in Laundering_Signature_Prespecification):
+  Laundering signature requires, in FUNGIBLE items: spike rates ABOVE the
+  liquidity-matched non-fungible baseline AND materially higher reversion
+  than the ~9% observed in the heterogeneity-driven prototype.
+  Fungible rates at/below baseline, or persistently low reversion,
+  => the price-anomaly evidence is withdrawn as laundering evidence.
+
+  Interpret nothing here alone — send both output files back for the
+  write-up so exploratory vs confirmatory status is preserved.

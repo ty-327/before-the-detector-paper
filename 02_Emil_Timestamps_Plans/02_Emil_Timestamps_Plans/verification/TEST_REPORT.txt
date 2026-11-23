@@ -1,0 +1,11 @@
+Verification of the clean reading revision — 20 November 2026
+
+PASS: 12 listed files match their SHA-256 hashes and sizes.
+PASS: 4 plan DOCX files match the recorded identities and embedded UTC dates; ZIP/XML checks passed.
+PASS: 4 current Appendix A1 rows match the included source extract.
+Scope: file identity, embedded metadata and the supplied mapping only.
+Public registration, public deposit, first execution and scientific results are not established by this check.
+
+Appendix A1 was independently re-extracted from the current clean manuscript and standalone Appendix A. All table cells match the original mapping. Original plans, public copies and their embedded metadata retain their exact bytes.
+
+The verification algorithms and protected inputs match the preceding package exactly. Earlier deliberate-error receipts remain valid for those unchanged inputs.

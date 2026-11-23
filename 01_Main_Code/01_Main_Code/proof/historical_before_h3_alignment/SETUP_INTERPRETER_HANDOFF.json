@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "completed_utc": "2026-11-20T01:45:40.867166+00:00",
+  "reviewer_comment": "R2.2",
+  "scope": "Interpreter handoff and all real post-replay validation stages; the already passed numerical replay is reused",
+  "bare_launcher": "/workspace/scratch/e6c1950c91f3/submission_build_20261119/code_work/bare_python/bin/python",
+  "bare_launcher_numpy_import_exit": 1,
+  "bare_launcher_numpy_error": "ModuleNotFoundError: No module named 'numpy'",
+  "require_pinned_after_setup_branch_selected": "/workspace/scratch/e6c1950c91f3/submission_build_20261119/code_work/setup_handoff_source/.reviewer_env/bin/python",
+  "actual_post_replay_interpreter": "/workspace/scratch/e6c1950c91f3/submission_build_20261119/code_work/setup_handoff_source/.reviewer_env/bin/python",
+  "wrapper_command": [
+    "/workspace/scratch/e6c1950c91f3/submission_build_20261119/code_work/bare_python/bin/python",
+    "/workspace/scratch/e6c1950c91f3/submission_build_20261119/code_work/setup_handoff_source/run_revision1.py",
+    "--existing-replay",
+    "/workspace/scratch/e6c1950c91f3/submission_build_20261119/code_work/final_replay",
+    "--report-dir",
+    "/workspace/scratch/e6c1950c91f3/submission_build_20261119/code_work/bare_handoff_report"
+  ],
+  "wrapper_exit_code": 0,
+  "h2_agreement": "MATCH",
+  "portability_controls": "PASS",
+  "setup_installation_executed_in_this_test": false,
+  "pinned_environment_prepared_for_boundary_test": "A local link to the already installed exact pinned environment",
+  "fresh_numerical_replay_repeated": false,
+  "wrapper_sha256": "8c475236f5e5f4560b6cf8fbe841e33eeb400f88cb7af258e9c3041af8583086"
+}

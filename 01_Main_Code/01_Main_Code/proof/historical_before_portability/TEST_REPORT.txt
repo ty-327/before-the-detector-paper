@@ -1,0 +1,68 @@
+COSE REVIEWER CODE v56 — TEST REPORT
+Recorded execution completed: 2026-11-17T18:48:21.794493+00:00
+Overall result: PASS
+
+WHAT WAS ACTUALLY RUN
+The compact reviewer command was executed with 64-bit Python
+3.12.14 on Linux, with all 27 exact dependency pins
+and pip dependency consistency verified. It created a new external work folder,
+restored the omitted random-index files, ran the computational and launcher tests,
+regenerated the reporting results, ran the arithmetic checker, and compared all
+ten required CSV tables with the archived reference tables.
+
+OBSERVED RESULTS
+  Computational unit tests: 25 passed.
+  Full-reproduction launcher unit tests: 17 passed.
+  Fixed-effect validation: both model variants passed; maximum recorded error
+    4.63240557025e-14, below the 1e-9 acceptance threshold.
+  Restored random-index evidence: 7 files and 42 arrays matched originals;
+    all seven complete NPZ SHA-256 hashes matched.
+  Generated summary rows: 352.
+  Generated recovery-curve rows: 6608.
+  Arithmetic consistency checks: 39992 passed.
+  Required CSV tables compared: 10 of 10 passed.
+  Compared table cells: 260034.
+  Maximum numerical table difference observed: 0.0.
+  Numerical comparison tolerance: absolute 1e-10 and relative 1e-10.
+  Raw denominator-panel rows scanned in this test: 0.
+  Package hash verification: passed before and after execution.
+  Sum of recorded command-stage durations: 129.5 seconds on this test host.
+    This is not a runtime guarantee for another machine or first-time setup.
+
+FAILURE DETECTION
+The strict comparator correctly failed for an altered numerical reference,
+a missing required table, and an empty output directory. The runner correctly
+refused altered settings and missing evidence before analysis, an existing work
+directory without changing its contents, and a work directory inside the package.
+These are expected failure cases; their correct rejection is a passing test.
+
+SOURCE AND DATA INTEGRITY
+All 68 retained original source/reference files and all 119 saved-asset members
+were independently checked against their original uploaded v54 ZIP members.
+All 31 active scientific scripts remain unchanged. The classification projection
+retains all 22,495 item rows and exactly preserves its 292,435 retained field values.
+
+WHAT THIS PASS DOES NOT CLAIM
+This run used saved fitted coefficient evidence. It did not download or verify
+the external raw archive, refit the original empirical models, rerun the full
+primary simulation, rebuild H1/H3 from raw observations, or rescan the omitted
+large denominator panel. The full raw-data source and route are included, but a
+new complete raw-data run was not performed for this compact release.
+
+The Windows command file is supplied but native Windows and macOS execution
+were not performed. The lossless index restore fails safely if another runtime
+serializes the NPZ archives differently. Exact regeneration of the missing
+SteamDB player figures remains limited by the unavailable verified source export.
+
+EVIDENCE IN THIS FOLDER
+TEST_RESULTS.json records the observed execution and tested runtime file hashes.
+REFERENCE_COMPARISON.json describes every required table comparison.
+CHECK_STATUS.json records the arithmetic checker verdict and its actual scope.
+FIXED_EFFECT_VALIDATION.json records the numerical errors for both model variants.
+COMPARATOR_NEGATIVE_TESTS.json and RUNNER_FAILURE_TESTS.json record failure tests.
+COMPACT_SOURCE_INTEGRITY.json records original-archive byte comparisons.
+LOSSLESS_INDEX_RECONSTRUCTION.json records original array and NPZ hash matches.
+execution_logs/ retains the completed reviewer-run stage logs.
+
+The supplied proof describes this observed execution. It is not an independent
+human replication or a certification of every scientific interpretation.

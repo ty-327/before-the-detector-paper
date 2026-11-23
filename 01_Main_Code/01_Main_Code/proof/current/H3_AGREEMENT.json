@@ -1,0 +1,101 @@
+{
+  "historical_h3": "MATCH_TO_RETAINED_CALCULATION",
+  "manuscript_sha256": "b536620db7dfbcbedb99ed195fabb6f95aa8342b1dae2906b420c589aa7c6bd6",
+  "evidence_sha256": "dbab412b3fddb69c1dd3eb5f1dcd66793ba5a99cbb597adabf8804f4888a86b5",
+  "targets_read_from_docx": {
+    "price_2017_2018_min": 2.03,
+    "price_2017_2018_max": 2.1,
+    "price_2020": 4.82,
+    "price_2023": 10.57,
+    "price_2024": 9.36,
+    "ratio_2017_2018_min": 5.4,
+    "ratio_2017_2018_max": 5.6,
+    "ratio_2020_2024_min": 4.8,
+    "ratio_2020_2024_max": 6.7
+  },
+  "claims": [
+    {
+      "claim": "H3 ratio arithmetic",
+      "status": "PASS",
+      "expected": "key_price / candidate_index within 1e-10",
+      "actual": true,
+      "scope": "full_zip; whole_word_27keys; equal_item_daily_mean_then_equal_days",
+      "note": ""
+    },
+    {
+      "claim": "H3 2020 annual key price",
+      "status": "PASS",
+      "expected": 4.82,
+      "actual": 4.818231963087509,
+      "scope": "full_zip; whole_word_27keys; equal_item_daily_mean_then_equal_days",
+      "note": "Ordinary 2-decimal display: 4.82; no enlarged tolerance"
+    },
+    {
+      "claim": "H3 2023 annual key price",
+      "status": "PASS",
+      "expected": 10.57,
+      "actual": 10.567414764556059,
+      "scope": "full_zip; whole_word_27keys; equal_item_daily_mean_then_equal_days",
+      "note": "Ordinary 2-decimal display: 10.57; no enlarged tolerance"
+    },
+    {
+      "claim": "H3 2024 annual key price",
+      "status": "PASS",
+      "expected": 9.36,
+      "actual": 9.35698472243573,
+      "scope": "full_zip; whole_word_27keys; equal_item_daily_mean_then_equal_days",
+      "note": "Ordinary 2-decimal display: 9.36; no enlarged tolerance"
+    },
+    {
+      "claim": "H3 2017\u20132018 minimum annual key price",
+      "status": "PASS",
+      "expected": 2.03,
+      "actual": 2.0282358391538975,
+      "scope": "full_zip; whole_word_27keys; equal_item_daily_mean_then_equal_days",
+      "note": "Ordinary 2-decimal display: 2.03; no enlarged tolerance"
+    },
+    {
+      "claim": "H3 2017\u20132018 maximum annual key price",
+      "status": "PASS",
+      "expected": 2.1,
+      "actual": 2.0968175095896653,
+      "scope": "full_zip; whole_word_27keys; equal_item_daily_mean_then_equal_days",
+      "note": "Ordinary 2-decimal display: 2.10; no enlarged tolerance"
+    },
+    {
+      "claim": "H3 2017\u20132018 minimum annual ratio",
+      "status": "PASS",
+      "expected": 5.4,
+      "actual": 5.418736756558733,
+      "scope": "full_zip; whole_word_27keys; equal_item_daily_mean_then_equal_days",
+      "note": "Ordinary 1-decimal display: 5.4; no enlarged tolerance"
+    },
+    {
+      "claim": "H3 2017\u20132018 maximum annual ratio",
+      "status": "PASS",
+      "expected": 5.6,
+      "actual": 5.6417089466607475,
+      "scope": "full_zip; whole_word_27keys; equal_item_daily_mean_then_equal_days",
+      "note": "Ordinary 1-decimal display: 5.6; no enlarged tolerance"
+    },
+    {
+      "claim": "H3 2020\u20132024 minimum annual ratio",
+      "status": "PASS",
+      "expected": 4.8,
+      "actual": 4.8485532793972235,
+      "scope": "full_zip; whole_word_27keys; equal_item_daily_mean_then_equal_days",
+      "note": "Ordinary 1-decimal display: 4.8; no enlarged tolerance"
+    },
+    {
+      "claim": "H3 2020\u20132024 maximum annual ratio",
+      "status": "PASS",
+      "expected": 6.7,
+      "actual": 6.71743321933427,
+      "scope": "full_zip; whole_word_27keys; equal_item_daily_mean_then_equal_days",
+      "note": "Ordinary 1-decimal display: 6.7; no enlarged tolerance"
+    }
+  ],
+  "scope": "H3 displayed values compared with the retained 27-key calculation using the existing rounding rules",
+  "fresh_raw_data_reconstruction": false,
+  "full_manuscript_reproduction": "NOT_ESTABLISHED"
+}

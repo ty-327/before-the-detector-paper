@@ -1,0 +1,3 @@
+R2.2 — reproducibility archive
+
+Please make the reproducibility archive available, or provide a stable repository link before final acceptance. The current data-availability statement identifies the underlying Kaggle dataset, but the analysis code, item classifications, exclusions, randomization dates, file hashes, and construction of the collectibles index are also needed to reproduce the results.

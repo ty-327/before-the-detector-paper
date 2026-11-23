@@ -1,0 +1,239 @@
+{
+  "method": "Unchanged copies or outcome-independent scope projections; original numeric strings and CSV records preserved",
+  "records": [
+    {
+      "destination": "data/ITEM_CLASSIFICATIONS.csv",
+      "source_archive": "COSE_Reviewer_Code_v56.zip",
+      "source_member": "COSE_Reviewer_Code_v56/reviewer_data/ITEM_CLASSIFICATIONS.csv",
+      "source_sha256": "9aa2e07f604402207d8f95a520dedd292566d57d52efb0a7b1e7b5a4dd6ad7c6",
+      "output_sha256": "9aa2e07f604402207d8f95a520dedd292566d57d52efb0a7b1e7b5a4dd6ad7c6",
+      "method": "Unchanged bytes"
+    },
+    {
+      "destination": "data/container_definitions.csv",
+      "source_archive": "COSE_Reviewer_Code_v56.zip",
+      "source_member": "COSE_Reviewer_Code_v56/revision/container_definitions.csv",
+      "source_sha256": "51ce29dc3969a4e688bcc8c3efcaa0cd4b5eaa0b73d842aa4a5123ce95c35ea8",
+      "output_sha256": "51ce29dc3969a4e688bcc8c3efcaa0cd4b5eaa0b73d842aa4a5123ce95c35ea8",
+      "method": "Unchanged bytes"
+    },
+    {
+      "destination": "data/randomization_dates_frozen.csv",
+      "source_archive": "COSE_Reviewer_Code_v56.zip",
+      "source_member": "COSE_Reviewer_Code_v56/revision/randomization_dates_frozen.csv",
+      "source_sha256": "5b24a93202710c010ed1987ff2aaccddb98adf18aa6141dec498b70d0d11b59c",
+      "output_sha256": "5b24a93202710c010ed1987ff2aaccddb98adf18aa6141dec498b70d0d11b59c",
+      "method": "Unchanged bytes"
+    },
+    {
+      "destination": "data/S1b/historical_raw_filenames.json",
+      "source_archive": "COSE_Reviewer_Code_v56.zip",
+      "source_member": "COSE_Reviewer_Code_v56/inputs/historical_raw_filenames.json",
+      "source_sha256": "fc5ce77749b2cd69813790671429c2f72d1b8d39fc6a93c913800da89e2b8525",
+      "output_sha256": "fc5ce77749b2cd69813790671429c2f72d1b8d39fc6a93c913800da89e2b8525",
+      "method": "Unchanged bytes"
+    },
+    {
+      "destination": "data/H2/PROFILE_SUMMARIES.csv",
+      "source_archive": "COSE_Reviewer_Code_v56.zip",
+      "source_member": "COSE_Reviewer_Code_v56/expected_v48/supplementary/tables/PRIMARY_SCENARIO_RESULTS.csv",
+      "source_sha256": "a8eef620d8936d4b94b08d25cddf33e723e08152eb12a4264d945e8fd7390618",
+      "source_rows": 36,
+      "selected_rows": 32,
+      "output_sha256": "792ba9231542fb950ad063fc81632019faec7b0ece3d4710d994e1bc9cc6eece",
+      "method": "Header and selected complete CSV records copied byte-for-byte; no values reformatted",
+      "selection": {
+        "cohort": "full_archive",
+        "candidate_group": [
+          "all",
+          "exclude_cases"
+        ],
+        "model": "TWFE",
+        "background": [
+          "neutral",
+          "observed"
+        ],
+        "scenario": [
+          "delay14",
+          "delay28",
+          "delay7",
+          "distributed",
+          "heterogeneous",
+          "ramp21",
+          "ramp7",
+          "step"
+        ],
+        "scale": "eventual",
+        "implementation": "Dell_empirical_coefficient_noise",
+        "calibration": "frozen150_centered"
+      }
+    },
+    {
+      "destination": "data/H2/RECOVERY_CURVES.csv",
+      "source_archive": "COSE_Reviewer_Code_v56.zip",
+      "source_member": "COSE_Reviewer_Code_v56/expected_v48/supplementary/tables/RECOVERY_CURVES.csv",
+      "source_sha256": "ce21429c37833d427644f97cebab9f51fdb94a5426694e0e6c3ff620c98d9174",
+      "source_rows": 6608,
+      "selected_rows": 640,
+      "output_sha256": "51cc93104891766e29df9e2984fca69a26129e50a0c153e6391a89d8a3d45991",
+      "method": "Header and selected complete CSV records copied byte-for-byte; no values reformatted",
+      "selection": {
+        "cohort": "full_archive",
+        "candidate_group": [
+          "all",
+          "exclude_cases"
+        ],
+        "model": "TWFE",
+        "background": [
+          "neutral",
+          "observed"
+        ],
+        "scenario": [
+          "delay14",
+          "delay28",
+          "delay7",
+          "distributed",
+          "heterogeneous",
+          "ramp21",
+          "ramp7",
+          "step"
+        ],
+        "scale": "eventual",
+        "implementation": "Dell_empirical_coefficient_noise",
+        "calibration": "frozen150_centered"
+      }
+    },
+    {
+      "destination": "data/H2/EMPIRICAL_SPECIFICATIONS.csv",
+      "source_archive": "COSE_Reviewer_Code_v56.zip",
+      "source_member": "COSE_Reviewer_Code_v56/expected_v48/supplementary/tables/EMPIRICAL_RESPONSE_SPECIFICATIONS.csv",
+      "source_sha256": "ebbdca184b0e012fe64999287d80b21fd16b63ba90481e748db26e77d90061c1",
+      "output_sha256": "ebbdca184b0e012fe64999287d80b21fd16b63ba90481e748db26e77d90061c1",
+      "method": "Unchanged bytes"
+    },
+    {
+      "destination": "data/H2/BASELINES_AND_DENOMINATORS.csv",
+      "source_archive": "COSE_Reviewer_Code_v56.zip",
+      "source_member": "COSE_Reviewer_Code_v56/expected_v48/supplementary/tables/BASELINES_AND_DENOMINATORS.csv",
+      "source_sha256": "4b089d911aa0a87f8b5823055bf9c454a066f71c351a6f6cfdf0f694d3120b3b",
+      "source_rows": 10,
+      "selected_rows": 2,
+      "output_sha256": "7ca570236ee5a7334a499a1d734a9088a9f41055cc7a26d0518c7efd7b5da749",
+      "method": "Header and selected complete CSV records copied byte-for-byte; no values reformatted",
+      "selection": {
+        "cohort": "full",
+        "model": "TWFE",
+        "group": [
+          "all",
+          "exclude_cases"
+        ]
+      }
+    },
+    {
+      "destination": "data/H2/CALIBRATION_TARGETS.csv",
+      "source_archive": "COSE_Reviewer_Code_v56.zip",
+      "source_member": "COSE_Reviewer_Code_v56/expected_v48/supplementary/tables/CALIBRATION_TARGETS.csv",
+      "source_sha256": "4cd32e136009d7c8a84cfa336a1ef16b4c624a71b8ea5abd44cdc033982ea3f5",
+      "source_rows": 7,
+      "selected_rows": 2,
+      "output_sha256": "2e81edc9e749ae7a548a73f6f7eef94cd28d1535ead566a66d40f6459281d1d4",
+      "method": "Header and selected complete CSV records copied byte-for-byte; no values reformatted",
+      "selection": {
+        "cohort": "full_archive",
+        "model": "TWFE",
+        "group": [
+          "all",
+          "exclude_cases"
+        ],
+        "scale": "eventual"
+      }
+    },
+    {
+      "destination": "settings/FINAL_SETTINGS.json",
+      "source_archive": "COSE_Reviewer_Code_v56.zip",
+      "source_member": "COSE_Reviewer_Code_v56/FINAL_SETTINGS.json",
+      "source_sha256": "34a2ade40bf73d9e962a64e797654a5fe112a829d12094f0139b7c9745bea510",
+      "output_sha256": "34a2ade40bf73d9e962a64e797654a5fe112a829d12094f0139b7c9745bea510",
+      "method": "Unchanged bytes"
+    },
+    {
+      "destination": "settings/REVISION_SETTINGS.json",
+      "source_archive": "COSE_Reviewer_Code_v56.zip",
+      "source_member": "COSE_Reviewer_Code_v56/revision/REVISION_SETTINGS.json",
+      "source_sha256": "a562e5fa83efe2f8d1ecfe3efc0bb117b3eb4ebba601cbad5a47f5b7d82e29e1",
+      "output_sha256": "a562e5fa83efe2f8d1ecfe3efc0bb117b3eb4ebba601cbad5a47f5b7d82e29e1",
+      "method": "Unchanged bytes"
+    },
+    {
+      "destination": "settings/REVISION_SETTINGS_V2.json",
+      "source_archive": "COSE_Reviewer_Code_v56.zip",
+      "source_member": "COSE_Reviewer_Code_v56/revision_extensions/v2/REVISION_SETTINGS_V2.json",
+      "source_sha256": "57c5be61efbc08aef182058a95639e2af1e75e1bf425f5a467cf5999526588c6",
+      "output_sha256": "57c5be61efbc08aef182058a95639e2af1e75e1bf425f5a467cf5999526588c6",
+      "method": "Unchanged bytes"
+    },
+    {
+      "destination": "provenance/H3_INDEX_CONSTRUCTION_source.csv",
+      "source_archive": "COSE_Reviewer_Code_v56.zip",
+      "source_member": "COSE_Reviewer_Code_v56/reviewer_data/H3_INDEX_CONSTRUCTION.csv",
+      "source_sha256": "dbab412b3fddb69c1dd3eb5f1dcd66793ba5a99cbb597adabf8804f4888a86b5",
+      "output_sha256": "dbab412b3fddb69c1dd3eb5f1dcd66793ba5a99cbb597adabf8804f4888a86b5",
+      "method": "Unchanged bytes"
+    },
+    {
+      "destination": "data/H3/INDEX_CONSTRUCTION_27KEYS.csv",
+      "source_archive": "COSE_Reviewer_Code_v56.zip",
+      "source_member": "COSE_Reviewer_Code_v56/reviewer_data/H3_INDEX_CONSTRUCTION.csv",
+      "source_sha256": "dbab412b3fddb69c1dd3eb5f1dcd66793ba5a99cbb597adabf8804f4888a86b5",
+      "source_rows": 64,
+      "selected_rows": 8,
+      "output_sha256": "b1a4a2570ec1d2a984887ff44a18b7bfba1fd61ca1e79e5f3d2a161acd939a00",
+      "method": "Header and selected complete CSV records copied byte-for-byte; no values reformatted",
+      "selection": {
+        "scope": "full_zip",
+        "keys": "whole_word_27keys",
+        "recipe": "equal_item_daily_mean_then_equal_days"
+      }
+    },
+    {
+      "destination": "data/S1b/historical_spikes.csv",
+      "source_archive": "COSE-D-26-04938_2026-11-12_author_handoff.zip",
+      "source_member": "historical/s1b_cache_old_file_set/s1b_spikes.csv",
+      "source_sha256": "0f1b7bd4e5be53e411b44e88e220162e554ba7b0a92c36ae6ac079fe3bba82ff",
+      "output_sha256": "0f1b7bd4e5be53e411b44e88e220162e554ba7b0a92c36ae6ac079fe3bba82ff",
+      "method": "Unchanged bytes"
+    },
+    {
+      "destination": "provenance/historical_S1b_results.txt",
+      "source_archive": "COSE-D-26-04938_2026-11-12_author_handoff.zip",
+      "source_member": "historical/s1b_cache_old_file_set/s1b_results.txt",
+      "source_sha256": "81e49e2a8a6720678cc57d7fcf5a523501c4e2aaf93708e63596ce5f1d376eb7",
+      "output_sha256": "81e49e2a8a6720678cc57d7fcf5a523501c4e2aaf93708e63596ce5f1d376eb7",
+      "method": "Unchanged bytes"
+    },
+    {
+      "destination": "provenance/methods/RUN_ME_in_CS2_folder.py",
+      "source_archive": "COSE-D-26-04938_2026-11-12_author_handoff.zip",
+      "source_member": "inputs/cloud_rebuilt_v1/COSE_Analysis_Rebuilt_v1/recovered/RUN_ME_in_CS2_folder.py",
+      "source_sha256": "1d5ceb2fb584dcbadce3e218a37c9cd3c6218bd102c77101a0d7dd6bf0587cd9",
+      "output_sha256": "1d5ceb2fb584dcbadce3e218a37c9cd3c6218bd102c77101a0d7dd6bf0587cd9",
+      "method": "Unchanged bytes"
+    },
+    {
+      "destination": "provenance/methods/s1b_analysis.py",
+      "source_archive": "COSE-D-26-04938_2026-11-12_author_handoff.zip",
+      "source_member": "inputs/recovered/Old/s1b_analysis.py",
+      "source_sha256": "a2e254378322d89dfb4b9567a1198c8b1a94eabdf6ef9d93d0150c3b19396dc9",
+      "output_sha256": "a2e254378322d89dfb4b9567a1198c8b1a94eabdf6ef9d93d0150c3b19396dc9",
+      "method": "Unchanged bytes"
+    },
+    {
+      "destination": "provenance/methods/s1b_cache_reconstruction.py",
+      "source_archive": "COSE-D-26-04938_2026-11-12_author_handoff.zip",
+      "source_member": "scripts/s1b_cache_reconstruction.py",
+      "source_sha256": "784784e093f9314404528cdb9aa13600b52487bd0e75460e5522485965177b28",
+      "output_sha256": "784784e093f9314404528cdb9aa13600b52487bd0e75460e5522485965177b28",
+      "method": "Unchanged bytes"
+    }
+  ]
+}

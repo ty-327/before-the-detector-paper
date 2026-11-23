@@ -1,0 +1,3 @@
+R2.1 — analysis plan link, timestamp and decision-rule mapping
+
+Please provide a persistent link and timestamp for the dated analysis plan. Since the distinction between prespecified and exploratory analyses is central to the paper, a short table mapping each hypothesis to its original decision rule and final analysis would also be helpful.

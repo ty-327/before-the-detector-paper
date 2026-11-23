@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checks": 39992,
+  "result_rows": 352,
+  "curve_rows": 6608,
+  "checker": "separately written arithmetic, quantile, Wilson, floor, bootstrap and CSV-denominator code; same agent, not independent human replication",
+  "fresh_csv_rows_scanned": 0,
+  "raw_denominator_check_this_execution": false
+}

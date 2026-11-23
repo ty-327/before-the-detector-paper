@@ -1,0 +1,24 @@
+Command: ["/workspace/scratch/e6c1950c91f3/cose_review_20261117/test_environment/bin/python", "-m", "unittest", "discover", "-s", "/workspace/scratch/e6c1950c91f3/cose_reviewer_20261117/deliverables/COSE_Reviewer_Code_v56/launcher_tests", "-p", "test_start_reproduction.py", "-v"]
+
+test_audit_differences_refused (test_start_reproduction.LauncherTests.test_audit_differences_refused) ... ok
+test_dry_run_writes_nothing (test_start_reproduction.LauncherTests.test_dry_run_writes_nothing) ... ok
+test_existing_workspace_refused (test_start_reproduction.LauncherTests.test_existing_workspace_refused) ... ok
+test_matching_comparisons_and_prose_exception (test_start_reproduction.LauncherTests.test_matching_comparisons_and_prose_exception) ... ok
+test_missing_history_comparison_refused (test_start_reproduction.LauncherTests.test_missing_history_comparison_refused) ... ok
+test_missing_parent_refused (test_start_reproduction.LauncherTests.test_missing_parent_refused) ... ok
+test_no_expected_results_in_fitting_commands (test_start_reproduction.LauncherTests.test_no_expected_results_in_fitting_commands) ... ok
+test_original_stages_remain_ordered (test_start_reproduction.LauncherTests.test_original_stages_remain_ordered) ... ok
+test_package_and_input_checked_before_setup (test_start_reproduction.LauncherTests.test_package_and_input_checked_before_setup) ... ok
+test_pinned_requirements_preserved (test_start_reproduction.LauncherTests.test_pinned_requirements_preserved) ... ok
+test_planning_creates_no_run_or_environment (test_start_reproduction.LauncherTests.test_planning_creates_no_run_or_environment) ... ok
+test_real_subprocess_failure_preserved (test_start_reproduction.LauncherTests.test_real_subprocess_failure_preserved) ... ok
+test_real_subprocess_success_log (test_start_reproduction.LauncherTests.test_real_subprocess_success_log) ... ok
+test_spaces_preserved_as_single_arguments (test_start_reproduction.LauncherTests.test_spaces_preserved_as_single_arguments) ... ok
+test_windows_plan_uses_scripts_python (test_start_reproduction.LauncherTests.test_windows_plan_uses_scripts_python) ... ok
+test_workspace_inside_source_refused (test_start_reproduction.LauncherTests.test_workspace_inside_source_refused) ... ok
+test_zero_process_exit_does_not_hide_numerical_differences (test_start_reproduction.LauncherTests.test_zero_process_exit_does_not_hide_numerical_differences) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.032s
+
+OK

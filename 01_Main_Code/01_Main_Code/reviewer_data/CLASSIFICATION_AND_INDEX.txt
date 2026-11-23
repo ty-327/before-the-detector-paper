@@ -1,0 +1,91 @@
+ITEM CLASSIFICATION AND COLLECTIBLES INDEX
+Compact reviewer files — 17 November 2026
+
+FILES
+ITEM_CLASSIFICATIONS.csv contains all 22,495 item records, retaining 13 columns
+from the archived item_classification_audit.csv. Every retained field was checked
+against the source as a string, including empty cells and numerical precision.
+No item rows were removed, sorted, reclassified or recalculated for this copy.
+CLASSIFICATION_PROJECTION_RECEIPT.json records the source archive/file hashes,
+the retained columns, output hashes, row counts and 292,435 field comparisons.
+
+H3_INDEX_CONSTRUCTION.csv is an unchanged copy of the archived 64-row index
+comparison table. It contains explicitly labelled cohort, key-definition and
+weighting alternatives. Its source and destination hashes are identical.
+
+CLASSIFICATION FIELDS AND RULES
+item_id, file and item retain the source identifiers and recorded decoded names.
+The historical_class and whole_word_class fields identify name-based categories.
+The historical_arm and whole_word_arm fields identify the selected analysis arms
+after eligibility rules. The current full-archive H2 analysis uses whole_word_arm.
+
+The name classifier in scripts/audit_raw.py gives keys first priority. The revised
+key definition matches the whole word Key; the historical definition matches the
+substring Key. Other names containing Factory New, Minimal Wear, Field-Tested,
+Well-Worn or Battle-Scarred are control candidates. Names containing Case,
+Capsule, Graffiti, Sticker, Package or Pin are substitute candidates when they
+have not already entered a higher-priority category. Remaining names are excluded.
+
+For substitute candidates, the executed rule requires a pre-intervention median
+daily price below 10, median daily units strictly above the computed 75th-percentile
+cutoff of 36, and at least 180 observed pre-intervention days. Control candidates
+require a pre-intervention median daily price above 50 and at least 180 observed
+pre-intervention days. The pre-period ends before 28 October 2019. Key series need
+at least one observed pre-intervention day; the 180-day requirement does not apply
+to keys. No series with zero observed pre-intervention days enters an analysis arm.
+Price currency follows the source/manuscript attribution; this inventory does not
+add row-level currency authentication.
+
+pre_n_obs is the observed pre-intervention day count. pre_med_price and
+pre_med_units are the corresponding medians of daily price summaries and units.
+eligibility_reason comes from scripts/supplement_data_audit.py and describes the
+whole-word classification and eligibility checks. A pipe separates multiple reasons.
+The key_separate_from_H2 reason identifies a key series, not a candidate or control.
+
+The current whole-word inventory has 597 substitute candidates, 1,580 controls,
+27 keys and 20,291 excluded items. These are selected membership counts across
+the item inventory, not the numbers observed in every fitted event-window sample.
+The historical substring inventory retains 30 keys as a labelled comparator.
+
+EXCLUSIONS
+The container_case and container_broad columns are name-based diagnostic flags.
+They are not substitutes for the frozen exclusion list. The authoritative file
+revision/container_definitions.csv has one row for each of the 597 candidates:
+key_dependent_case flags the 29-case exclusion; all_named_containers flags the
+separate 59-item broader-container sensitivity. The raw workflow validates that
+the frozen item IDs still map to the same item names before using those flags.
+
+COLLECTIBLES INDEX CONSTRUCTION
+The implementation is scripts/descriptive_reconstruction.py, using daily item
+data built by scripts/audit_raw.py. Unix timestamps define UTC calendar days.
+For each observed item-day, recorded quantities are summed, and daily price is
+sum(window price x window quantity) / sum(window quantity). The source prices
+are window medians, so this is a quantity-weighted summary of window prices;
+it is not an authenticated transaction-level volume-weighted price.
+
+Under the reported equal_item_daily_mean_then_equal_days recipe, the daily
+collectibles index is the arithmetic mean of the available candidate item-day
+prices. The annual index is then the arithmetic mean across observed days.
+The key-price series uses the corresponding available key item-day prices and
+the same equal-item, then equal-day aggregation. Missing item-days are absent
+from these means; they are not replaced with zero prices. The annual ratio is
+the annual key-price mean divided by the annual candidate-index mean.
+
+In H3_INDEX_CONSTRUCTION.csv, use keys=whole_word_27keys and
+recipe=equal_item_daily_mean_then_equal_days for the reported key definition
+and weighting. The scope column distinguishes full_zip from
+historical_recovered_cohort. Keep those alternatives separate. The table also
+retains substring_30keys and pooled_unit_weighted_all_rows as labelled comparisons;
+do not pool or silently substitute those rows for the reported recipe.
+
+PROVENANCE AND EXECUTION SCOPE
+Original source paths within COSE_Main_Code_Checked_v54.zip are:
+executed_run/corrected_analysis/item_classification_audit.csv
+executed_run/tables/h3_index_construction_sensitivity.csv
+
+The script paths above identify the source implementations. The compact package's
+main README identifies its active code directory and execution commands.
+These reviewer files expose the retained classification and index records in a
+small form. Rebuilding them from raw observations requires the separate exact
+raw archive and the full reproduction workflow. The compact saved-evidence check
+must be read according to its stated execution scope.

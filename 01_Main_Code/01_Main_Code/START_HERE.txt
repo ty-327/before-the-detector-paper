@@ -1,0 +1,27 @@
+COSE REVISION 1 MAIN CODE
+
+Verify the reviewer-requested H2 results and corrected H3 values against the
+current manuscript and retained calculations.
+
+1. Extract the entire ZIP and install 64-bit Python 3.12.
+2. Windows: double-click START_REVISION1_WINDOWS.cmd.
+   macOS/Linux: python3.12 run_revision1.py --setup
+3. Read REVISION1_STATUS.json in the printed external report folder.
+
+The command runs the saved-evidence workflow, checks the current H2 claims and
+Tables A2–A3, and compares H3 values read from the clean manuscript. It verifies
+all 42 current random-index arrays and tests that altered results, missing files
+and corrupted evidence are rejected.
+
+To bind an already passed saved-evidence run:
+  python run_revision1.py --existing-replay PATH_TO_PASSED_RUN
+This rechecks the previous run, its current evidence and the current manuscript.
+Use a replay produced by this release.
+
+Emil's and Ty's packets are separate. The historical comparison uses Ty's data
+and records 16 agreements and one corpus claim awaiting source evidence. Its
+exit code is 1 for that outstanding claim. See README.md for the command.
+
+Successful verification establishes agreement with retained evidence. A full
+raw-data reconstruction uses the inputs described in README.md, including the
+original source records for the corpus-wide 25,432 count and Figures 2–3.

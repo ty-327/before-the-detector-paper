@@ -1,0 +1,76 @@
+{
+  "package_status": "RETAINED_DATA_H3_DISPLAYS_ALIGNED",
+  "submission_readiness": "NOT_ESTABLISHED",
+  "current_manuscript": {
+    "filename": "COSE_Manuscript_Clean_19Nov2026.docx",
+    "sha256": "86314b350c117293cff3ef20a34b856e9d786180afc79ced49d753a9e62d201c"
+  },
+  "main_code_archive_identifier": "COSE_Revision1_Submission_Package_20Nov2026.zip:04_Code_and_Data/01_Main_Code",
+  "main_code_archive_status": "BUNDLED_SAVED_EVIDENCE_H2_AND_RETAINED_H3_COMPARISON",
+  "final_verified_main_archive_identifier": "NOT_ESTABLISHED_FOR_FULL_MANUSCRIPT",
+  "public_repository_url_or_doi": "NOT_YET_SUPPLIED",
+  "fresh_refit_or_raw_data_reproduction": "NOT_PERFORMED",
+  "scope": [
+    "R2.2 reproducibility records",
+    "R1.1–R1.4 and R2.4–R2.5 retained H2 additions"
+  ],
+  "H3": {
+    "status": "MATCH_TO_RETAINED_CALCULATION",
+    "reported_recipe": "whole-word 27 keys; within-item quantity weighting, equal available items per day, equal observed days per year",
+    "manuscript_2020_price": "4.82",
+    "retained_evidence_2020_price": "4.818231963087509",
+    "manuscript_2023_price": "10.57",
+    "retained_evidence_2023_price": "10.567414764556059",
+    "manuscript_ratio_ranges": [
+      "5.4–5.6 (2017–2018)",
+      "4.8–6.7 (2020–2024)"
+    ],
+    "retained_evidence_ratio_ranges_rounded": [
+      "5.4–5.6 (2017–2018)",
+      "4.8–6.7 (2020–2024)"
+    ],
+    "scope": "Four displayed values agree with the retained 27-key annual calculation. The numerical records and index recipe are unchanged.",
+    "correction_record": "provenance/H3_DISPLAY_ALIGNMENT.json"
+  },
+  "S1b": {
+    "sample": "Historical file inventory; classified fungible and wear-designated nonfungible items; primary mean raw price > USD 10",
+    "historical_filename_count": 22420,
+    "primary_fungible_spikes": 1508,
+    "primary_nonfungible_spikes": 18292,
+    "recorded_fungible_item_days": 682611,
+    "recorded_nonfungible_item_days": 6659701,
+    "rate_arithmetic": "1,000 × 18,292 / 6,659,701 = 2.746669858..., rounding to 2.75",
+    "primary_classified_sample_count": 19800,
+    "manuscript_corpus_25432_verification": "NOT_VERIFIED",
+    "corpus_method_source": "provenance/methods/RUN_ME_in_CS2_folder.py",
+    "corpus_method_result_log": "NOT_AVAILABLE",
+    "scope_limit": "The 19,800 classified-sample count is not a comparator for the 25,432 corpus-wide claim."
+  },
+  "other_limits": [
+    "No raw Kaggle archive or original SteamDB player-count export is included.",
+    "Frozen dates document revision-stage calibration, not authenticated original-submission simulation provenance.",
+    "Internal evidence-path columns preserve source-run identifiers; coefficient arrays and a full executable workflow are not in this data packet."
+  ],
+  "bundled_main_code_report": "../../06_Verification/VERIFICATION_REPORT.txt",
+  "current_clean_manuscript": {
+    "filename": "COSE_Manuscript_Clean_19Nov2026.docx",
+    "sha256": "86314b350c117293cff3ef20a34b856e9d786180afc79ced49d753a9e62d201c"
+  },
+  "editorial_style_update": {
+    "date": "2026-11-20",
+    "numerical_records_changed": false,
+    "displayed_h3_values_changed": false,
+    "clean_manuscript_only": true
+  },
+  "previous_editorial_manuscript": {
+    "source_archive_sha256": "3be609960fe99108b025cc27c257c0acc585110d93ce81857f906d9596847dd2",
+    "tracked": {
+      "filename": "COSE_Manuscript_Reviewer_Changes_18Nov2026.docx",
+      "sha256": "6043a451d1d6517fc033356f6c29b25fa6c6039785bd2cbfd877808757359281"
+    },
+    "clean": {
+      "filename": "COSE_Manuscript_Clean_19Nov2026.docx",
+      "sha256": "b8ddac3975eb4244806bc96e111cb5c04e8656081ebbf963a909d5853f4bbeb3"
+    }
+  }
+}

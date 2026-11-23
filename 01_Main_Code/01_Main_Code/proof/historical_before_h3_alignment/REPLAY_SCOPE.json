@@ -1,0 +1,19 @@
+{
+  "mode": "saved_evidence_replay",
+  "fresh_raw_extraction": false,
+  "fresh_primary_simulation": false,
+  "fresh_primary_model_fit": false,
+  "fresh_item_classification": false,
+  "fresh_denominator_csv_scan": false,
+  "fresh_H1_H3_reconstruction": false,
+  "fitted_coefficients": "Retained fitted coefficient arrays from the checked main-code package",
+  "random_indices": "Restored from frozen seeds; original array hashes are required and current arrays are checked again by the arithmetic verifier; NPZ container hashes are recorded",
+  "denominators": "Compared with retained previously checked totals; the large derived panel is omitted",
+  "historical_table_fields": "CSV execution_activity fields are retained historical producer labels for exact reference comparison. They do not describe the current replay execution.",
+  "limitations": [
+    "Does not extract or validate the external raw archive.",
+    "Does not repeat raw-data classification or primary empirical model fitting.",
+    "Does not scan the omitted derived denominator panel.",
+    "Does not establish independent human replication or verify scientific interpretation."
+  ]
+}

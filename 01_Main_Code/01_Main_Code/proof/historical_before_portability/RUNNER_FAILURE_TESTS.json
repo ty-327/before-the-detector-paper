@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-11-17T18:46:40.182959+00:00",
+  "scope": "Focused negative runner workflow tests on isolated copies of the reviewer package. No scientific replay or raw-data execution was performed.",
+  "runner_sha256": "14e3b072fd88fe45dac651a217962f5829386875763dcf1ee0f90a6fe9900cbe",
+  "source_package_unchanged_for_tested_files": true,
+  "tested_source_hashes": {
+    "reviewer_test.py": "14e3b072fd88fe45dac651a217962f5829386875763dcf1ee0f90a6fe9900cbe",
+    "FINAL_SETTINGS.json": "34a2ade40bf73d9e962a64e797654a5fe112a829d12094f0139b7c9745bea510",
+    "review_assets.zip": "11bdd80b05183937a8f82e1442818f3e390ba5d8ff095c0ec70560a69cccba79",
+    "PACKAGE_MANIFEST.json": "78a742df4e2e9ebc7016eb17716130d238c23bd92f345f1ab41b945c98c7414e"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux",
+    "python_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3"
+  },
+  "cases": [
+    {
+      "case": "altered_final_settings",
+      "status": "PASS",
+      "expected_result": "Refusal with nonzero exit before any analytical stage",
+      "exit_code": 1,
+      "observed_report_status": "FAIL",
+      "stages_observed": [
+        "release_preflight"
+      ],
+      "no_analysis_stage_started": true,
+      "existing_marker_unchanged": null,
+      "work_directory_created": true,
+      "stdout": "Reviewer work directory: /workspace/scratch/e6c1950c91f3/cose_reviewer_20261117/quality_audit/runner_failures_rzpqfooc/altered_final_settings/requested_run\n[01] release preflight ...",
+      "stderr": "FAIL: Stage 'release_preflight' failed with exit code 1. See /workspace/scratch/e6c1950c91f3/cose_reviewer_20261117/quality_audit/runner_failures_rzpqfooc/altered_final_settings/requested_run/logs/01_release_preflight.log\nReport: /workspace/scratch/e6c1950c91f3/cose_reviewer_20261117/quality_audit/runner_failures_rzpqfooc/altered_final_settings/requested_run/REVIEW_TEST_RESULT.json",
+      "release_preflight_log": "Command: [\"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3\", \"/workspace/scratch/e6c1950c91f3/cose_reviewer_20261117/quality_audit/runner_failures_rzpqfooc/altered_final_settings/package/verify_release.py\", \"--root\", \"/workspace/scratch/e6c1950c91f3/cose_reviewer_20261117/quality_audit/runner_failures_rzpqfooc/altered_final_settings/package\"]\n\nRaw archive not supplied to this preflight; verify it before running reproduce.py.\nChecked 89 packaged files; mismatches: 1\nFAIL: FINAL_SETTINGS.json: size/hash mismatch\nNo analytical code, settings, outputs or raw data were modified."
+    },
+    {
+      "case": "missing_review_assets",
+      "status": "PASS",
+      "expected_result": "Refusal with nonzero exit before any analytical stage",
+      "exit_code": 1,
+      "observed_report_status": "FAIL",
+      "stages_observed": [
+        "release_preflight"
+      ],
+      "no_analysis_stage_started": true,
+      "existing_marker_unchanged": null,
+      "work_directory_created": true,
+      "stdout": "Reviewer work directory: /workspace/scratch/e6c1950c91f3/cose_reviewer_20261117/quality_audit/runner_failures_rzpqfooc/missing_review_assets/requested_run\n[01] release preflight ...",
+      "stderr": "FAIL: Stage 'release_preflight' failed with exit code 1. See /workspace/scratch/e6c1950c91f3/cose_reviewer_20261117/quality_audit/runner_failures_rzpqfooc/missing_review_assets/requested_run/logs/01_release_preflight.log\nReport: /workspace/scratch/e6c1950c91f3/cose_reviewer_20261117/quality_audit/runner_failures_rzpqfooc/missing_review_assets/requested_run/REVIEW_TEST_RESULT.json",
+      "release_preflight_log": "Command: [\"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3\", \"/workspace/scratch/e6c1950c91f3/cose_reviewer_20261117/quality_audit/runner_failures_rzpqfooc/missing_review_assets/package/verify_release.py\", \"--root\", \"/workspace/scratch/e6c1950c91f3/cose_reviewer_20261117/quality_audit/runner_failures_rzpqfooc/missing_review_assets/package\"]\n\nRaw archive not supplied to this preflight; verify it before running reproduce.py.\nChecked 89 packaged files; mismatches: 1\nFAIL: review_assets.zip: missing\nNo analytical code, settings, outputs or raw data were modified."
+    },
+    {
+      "case": "existing_work_directory",
+      "status": "PASS",
+      "expected_result": "Refusal with nonzero exit before any analytical stage",
+      "exit_code": 1,
+      "observed_report_status": null,
+      "stages_observed": [],
+      "no_analysis_stage_started": true,
+      "existing_marker_unchanged": true,
+      "work_directory_created": true,
+      "stdout": "",
+      "stderr": "FAIL: The work directory already exists; choose a new directory: /workspace/scratch/e6c1950c91f3/cose_reviewer_20261117/quality_audit/runner_failures_rzpqfooc/existing_work_directory/requested_run",
+      "release_preflight_log": ""
+    },
+    {
+      "case": "inside_package_work_directory",
+      "status": "PASS",
+      "expected_result": "Refusal with nonzero exit before any analytical stage",
+      "exit_code": 1,
+      "observed_report_status": null,
+      "stages_observed": [],
+      "no_analysis_stage_started": true,
+      "existing_marker_unchanged": null,
+      "work_directory_created": false,
+      "stdout": "",
+      "stderr": "FAIL: The work directory must be outside the source package.",
+      "release_preflight_log": ""
+    }
+  ]
+}

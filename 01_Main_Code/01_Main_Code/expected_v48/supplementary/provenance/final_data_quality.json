@@ -1,0 +1,19 @@
+{
+  "empty_item_files": 49,
+  "conversion_table_mapping_complete": false,
+  "canonical_name_unique": 22495,
+  "canonical_vs_legacy_changes": 29,
+  "liquidity_population_items": 13785,
+  "liquidity_cutoff": 36.0,
+  "liquidity_population": "Items categorized by the recovered key code as key, fungible or wear-designated nonfungible, with at least one observed day before nominal event. Percentile of item-specific median daily quantities, before price, history-length or liquidity selection. pandas linear quantile.",
+  "liquidity_interval": "All available history from 2013-04-26 through 2019-10-27 inclusive; item-specific coverage differs",
+  "timestamp_duplicate_groups": 9829,
+  "timestamp_duplicate_rows": 19658,
+  "timestamp_duplicate_excess": 9829,
+  "same_timestamp_groups_different_prices": 7557,
+  "same_timestamp_groups_different_quantities": 8048,
+  "interval_overlap_status": "Unknown. No interval start/end or trade identifiers are supplied; summing all positive quantities reproduces the source implementation but cannot authenticate nonoverlap.",
+  "currency_status": "No currency field; USD attribution is manuscript/dataset documentation, not independently authenticated row-wise. No conversion performed.",
+  "case_mapping_status": "Explicit29-case whitelist and associated24key names agree exactly with frozen exclusion; not a post-result membership adjustment. Steam primary pages support key families; mapped page URLs retained for review.",
+  "data_transform_description": "Daily sum of recorded quantities; quantity-weighted mean of window median price summaries, not authenticated transaction VWAP."
+}

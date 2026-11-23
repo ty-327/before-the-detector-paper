@@ -1,0 +1,10 @@
+reviewer_comment,file,change,analysis_results_changed
+R2.2,reviewer_tools/restore_replay_indices.py,Require original array hashes; record compressed-container equality without requiring it.,No
+R2.2,scripts/check_results.py,Verify current arrays against the pinned recipe for seven exact paths; preserve strict hashes for other evidence; expose a current-evidence-only check.,No
+R2.2,reviewer_test.py,Copy the frozen recipe into the replay and require original arrays; report serialization scope accurately.,No
+R2.2,run_revision1.py,Use the pinned interpreter after setup; recheck current evidence when binding an existing replay; run portability/integrity controls; record approved reference-document hashes.,No
+R2.2,reviewer_tools/test_portability_integrity.py,Exercise accepted alternate NPZ serialization and required evidence/recipe rejection cases on disposable copies.,No
+R2.2,README.md,"Update run instructions, verification scope and sibling dataset path.",No
+R2.2,START_HERE.txt,Describe current-array and portability checks.,No
+R2.2,proof/README.txt,Separate current proof from explicitly historical records.,No
+R2.2,provenance/README.txt,Identify current provenance and historical records.,No

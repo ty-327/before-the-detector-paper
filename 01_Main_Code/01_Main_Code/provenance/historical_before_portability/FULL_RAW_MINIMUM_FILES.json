@@ -1,0 +1,378 @@
+{
+  "scope": "Read-only dependency inspection for full raw workflow; no raw execution or numerical reproduction was performed by this audit.",
+  "source_archive": "COSE_Main_Code_Checked_v54(1).zip",
+  "source_archive_sha256": "df9f33f4ef8e60ff4711eeee948b459894c9ae1f210d8b521ca81c661fdb5760",
+  "base_selection": {
+    "file_count": 63,
+    "uncompressed_bytes": 12184370,
+    "deflate6_zip_bytes": 1678313
+  },
+  "keep_files": [
+    {
+      "path": "FINAL_SETTINGS.json",
+      "bytes": 5316,
+      "sha256": "34a2ade40bf73d9e962a64e797654a5fe112a829d12094f0139b7c9745bea510"
+    },
+    {
+      "path": "REPRODUCTION_SPECIFICATION.json",
+      "bytes": 1985,
+      "sha256": "eb312278d0dc3d0882fffccb9f4efe21bca07d4981ff91e7479edee19bde0942"
+    },
+    {
+      "path": "RESULT_TO_SCRIPT_MAP.csv",
+      "bytes": 6097,
+      "sha256": "512f9c95dd0b0ab4445297c055ae91dd8c0c447ff3d625e10681aa3ef8b214f7"
+    },
+    {
+      "path": "compare_audits.py",
+      "bytes": 2000,
+      "sha256": "c05a4b5116a9c23d1a4a59c5bac5b5fac3994f31e4661a026f8f0088d6c2e612"
+    },
+    {
+      "path": "compare_manuscript.py",
+      "bytes": 5938,
+      "sha256": "f597b4bdb38f1da4d1e2ad8fae70060d1a72df8503393eb6acb86eb5d32b6cd6"
+    },
+    {
+      "path": "compare_v48.py",
+      "bytes": 4428,
+      "sha256": "fdbcd5e423c25add7a060f5afa07a8e84ae8bd6845b6257468968710af4484be"
+    },
+    {
+      "path": "expected_v48/supplementary/figures/FIGURE4_DATA.csv",
+      "bytes": 4697,
+      "sha256": "40b881bbb12d2d3123ae8a9d7185d62067fe1f7a347a2cb8c10d623b6eb86f57"
+    },
+    {
+      "path": "expected_v48/supplementary/provenance/final_data_quality.json",
+      "bytes": 1627,
+      "sha256": "9820b65ef599b67ff0b190412d954fc41c8fcccdce2e30af251e6bbd8a12cc0a"
+    },
+    {
+      "path": "expected_v48/supplementary/provenance/raw_audit.json",
+      "bytes": 7065,
+      "sha256": "7f5d4382165e73eaca77e43d075071db5246a2b094c8e1ee106a29810a047947"
+    },
+    {
+      "path": "expected_v48/supplementary/provenance/recovered_panel_audit.json",
+      "bytes": 2046,
+      "sha256": "3c01d8f19f02a2a0c876f27c0ad5082cb787d92aec289ee7ab26b4403f67bdff"
+    },
+    {
+      "path": "expected_v48/supplementary/provenance/timestamp_audit.json",
+      "bytes": 12180,
+      "sha256": "13e69ec4d3b798d91b8df38a2f57b397b163ef7fa357b4ca911a6af12990381f"
+    },
+    {
+      "path": "expected_v48/supplementary/tables/BASELINES_AND_DENOMINATORS.csv",
+      "bytes": 3354,
+      "sha256": "4b089d911aa0a87f8b5823055bf9c454a066f71c351a6f6cfdf0f694d3120b3b"
+    },
+    {
+      "path": "expected_v48/supplementary/tables/CALIBRATION_TARGETS.csv",
+      "bytes": 1128,
+      "sha256": "4cd32e136009d7c8a84cfa336a1ef16b4c624a71b8ea5abd44cdc033982ea3f5"
+    },
+    {
+      "path": "expected_v48/supplementary/tables/EMPIRICAL_RESPONSE_SPECIFICATIONS.csv",
+      "bytes": 4872,
+      "sha256": "ebbdca184b0e012fe64999287d80b21fd16b63ba90481e748db26e77d90061c1"
+    },
+    {
+      "path": "expected_v48/supplementary/tables/EQUAL_CUMULATIVE_RESULTS.csv",
+      "bytes": 18632,
+      "sha256": "d33fbb4da2740de136c4b6fed32f4cf1018fcdf1466ab7526bf9805dce626691"
+    },
+    {
+      "path": "expected_v48/supplementary/tables/FINAL_RESULTS.csv",
+      "bytes": 297644,
+      "sha256": "51af60dbdccfa765d686b48175d1c78e034bc7780f315cd8ef17e241bdcfc95e"
+    },
+    {
+      "path": "expected_v48/supplementary/tables/MATCHED_AGGREGATE_VOLUMES.csv",
+      "bytes": 445,
+      "sha256": "71bbdb9b64370badb72bb4be9eca8509775f4a4563d74e0814e340fdd3058560"
+    },
+    {
+      "path": "expected_v48/supplementary/tables/MATCHED_COMPARISONS.csv",
+      "bytes": 39769,
+      "sha256": "40fd9e6880d3f75a785d50d713d12c1282c5bef166f27501f9cfb40809bc6b5b"
+    },
+    {
+      "path": "expected_v48/supplementary/tables/PRIMARY_SCENARIO_RESULTS.csv",
+      "bytes": 31740,
+      "sha256": "a8eef620d8936d4b94b08d25cddf33e723e08152eb12a4264d945e8fd7390618"
+    },
+    {
+      "path": "expected_v48/supplementary/tables/RECOVERY_CURVES.csv",
+      "bytes": 4698524,
+      "sha256": "ce21429c37833d427644f97cebab9f51fdb94a5426694e0e6c3ff620c98d9174"
+    },
+    {
+      "path": "inputs/historical_raw_filenames.json",
+      "bytes": 1437957,
+      "sha256": "fc5ce77749b2cd69813790671429c2f72d1b8d39fc6a93c913800da89e2b8525"
+    },
+    {
+      "path": "inputs/historical_selected_names.json",
+      "bytes": 110589,
+      "sha256": "c29e4126018d4e6d0b6fcdf8eab20fe215a7362e3353f334714a2abcfe8df670"
+    },
+    {
+      "path": "inputs/public_data_manifest.json",
+      "bytes": 5232317,
+      "sha256": "7793bdb378b608b851b397163442388b4f599f2546e69ffdf6dc96a6fca616fa"
+    },
+    {
+      "path": "inputs/recovered/Old/items/keyban_analysis.py",
+      "bytes": 11377,
+      "sha256": "581b65c2bf21ea98073a8842081c13a5a8c34384ec76323fb2d88a7040f0177c"
+    },
+    {
+      "path": "inputs/recovered/Old/s1b_analysis.py",
+      "bytes": 11923,
+      "sha256": "a2e254378322d89dfb4b9567a1198c8b1a94eabdf6ef9d93d0150c3b19396dc9"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 5969,
+      "sha256": "5dd742dd432bfa0b5a868dd3ec3b78acc8cbe87a4ed50583cbd7666c14e7cdd5"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 481,
+      "sha256": "a3a473e857606ecf4c8876c0acf70e9413a154276a8ecea46eb1ce26df374810"
+    },
+    {
+      "path": "revision/REVISION_SETTINGS.json",
+      "bytes": 7319,
+      "sha256": "a562e5fa83efe2f8d1ecfe3efc0bb117b3eb4ebba601cbad5a47f5b7d82e29e1"
+    },
+    {
+      "path": "revision/SETTINGS_SHA256.json",
+      "bytes": 305,
+      "sha256": "d4456a889fd8087913d6385d2b976620cf4cec815f3d74b2b73ca29cd04429e6"
+    },
+    {
+      "path": "revision/container_definitions.csv",
+      "bytes": 30440,
+      "sha256": "51ce29dc3969a4e688bcc8c3efcaa0cd4b5eaa0b73d842aa4a5123ce95c35ea8"
+    },
+    {
+      "path": "revision/randomization_dates_frozen.csv",
+      "bytes": 2303,
+      "sha256": "5b24a93202710c010ed1987ff2aaccddb98adf18aa6141dec498b70d0d11b59c"
+    },
+    {
+      "path": "revision_extensions/v2/REVISION_SETTINGS_V2.json",
+      "bytes": 10484,
+      "sha256": "57c5be61efbc08aef182058a95639e2af1e75e1bf425f5a467cf5999526588c6"
+    },
+    {
+      "path": "scripts/audit_raw.py",
+      "bytes": 6686,
+      "sha256": "9ccc39583524723b515bc5bd898384d3b36d8ce947ec097f66d4998edd0a98a8"
+    },
+    {
+      "path": "scripts/audit_timestamps.py",
+      "bytes": 1611,
+      "sha256": "55705c1e6a2a67345ac949eb81f46bfe647e37aa34c6a068db98e2a352ce03f9"
+    },
+    {
+      "path": "scripts/check_results.py",
+      "bytes": 9843,
+      "sha256": "804916b50a20e2efbd83c4772bdb975bf463428f94538389dec273240ea40b9c"
+    },
+    {
+      "path": "scripts/cloud/cose_core.py",
+      "bytes": 19272,
+      "sha256": "f3efdc9c5db8f8a850920e35ebb5550c0182b991638eaf7c1999967b06591106"
+    },
+    {
+      "path": "scripts/cloud/run_analysis.py",
+      "bytes": 21156,
+      "sha256": "8695284ad563dd0db5a8a54ef471bafc8a65fcc849ff5b8a8a294f5b1e6de63e"
+    },
+    {
+      "path": "scripts/cloud/run_s1b_adapter.py",
+      "bytes": 3707,
+      "sha256": "f46b6fba43dd48f5d46fa69876b98c15c2519fb9452963cd08347fb49e6b67a4"
+    },
+    {
+      "path": "scripts/cloud_s1b_parallel_worker.py",
+      "bytes": 2722,
+      "sha256": "0cf5d062d0925b2dca28675cbbd62831c05858c828057ba394616a67a3320b40"
+    },
+    {
+      "path": "scripts/computational_checks.py",
+      "bytes": 10219,
+      "sha256": "b08ea6d95ecf049246e3bbe9faa20ae6d1bdccac8700d6a1559b563b0146a0f5"
+    },
+    {
+      "path": "scripts/concentration_reconstruction.py",
+      "bytes": 2060,
+      "sha256": "e06a7e15617c4b44332af3678ff1a2d0fdb40672f77f0301f9c692e7c8e89548"
+    },
+    {
+      "path": "scripts/date_randomization.py",
+      "bytes": 2496,
+      "sha256": "65fe5ab3faadea4fee6e723786b0737bac97e074b558a0461359fcbb093085f4"
+    },
+    {
+      "path": "scripts/descriptive_reconstruction.py",
+      "bytes": 3407,
+      "sha256": "5e3b66e53e1a902bb7e808f7dfd81693bb13af45593d61ae3f3468cbbf46a36f"
+    },
+    {
+      "path": "scripts/equal_cumulative_figure.py",
+      "bytes": 1877,
+      "sha256": "c28fc4ba0fcb7b7eff97bb1d918df77c2e96d230e7509a4f46638a7604ca971f"
+    },
+    {
+      "path": "scripts/fe_engine.py",
+      "bytes": 2444,
+      "sha256": "c308aadc8b2cde99f69832aed53e8ebeaf6635719dcfb9b01bbeb84bef418919"
+    },
+    {
+      "path": "scripts/finish_data_quality.py",
+      "bytes": 5943,
+      "sha256": "0e8654d2d138cc30003d5d7cc24381a6f823a20d12ad7953b95ac2b0a0f7a55f"
+    },
+    {
+      "path": "scripts/generate_results.py",
+      "bytes": 14480,
+      "sha256": "78afee1ed3020a64acceec9c39376706f7a484bfaa599bcb7b7c22ebb9f4db95"
+    },
+    {
+      "path": "scripts/injection_revision.py",
+      "bytes": 9453,
+      "sha256": "0e428fd115198221c4070474994c95af474be201c0e62bcc4b1bbfd9cbc21f2c"
+    },
+    {
+      "path": "scripts/linearmodels_crosscheck.py",
+      "bytes": 3305,
+      "sha256": "377f67dd20d843f9ca56416fa0c41a3b4cdeb7960152cf462a0aee5763fc2e6e"
+    },
+    {
+      "path": "scripts/make_figures_v2.py",
+      "bytes": 7107,
+      "sha256": "22961476be26e2334ef8bb5b83d3b85721edf0c3b633137c1255aff1c4b6a4dd"
+    },
+    {
+      "path": "scripts/prepare_evidence.py",
+      "bytes": 9051,
+      "sha256": "6572c77913eff4461a29ca4c1283df10b49de8585d3ffd83ab26ff4ebbf7c725"
+    },
+    {
+      "path": "scripts/rebuild_historical_cohort.py",
+      "bytes": 912,
+      "sha256": "11bbac968c6510b9e11bf97c5ffbcdcad479940bf644368c2dbf2b1ddd6e96c6"
+    },
+    {
+      "path": "scripts/reconcile_panels.py",
+      "bytes": 3321,
+      "sha256": "851542fdbc9c6b5eb15ed56772fb1c47079b59b2da04486fffc088d4fe094d2f"
+    },
+    {
+      "path": "scripts/release_figures.py",
+      "bytes": 4516,
+      "sha256": "e676d59f70f1c92d507b14c546db6c0ac839c21c5079f880fedea899713188bb"
+    },
+    {
+      "path": "scripts/resolve_display_names.py",
+      "bytes": 1792,
+      "sha256": "23f251652d9667b2bf4f44f4edde3950e2b4baf349d226b156738e994b9a0163"
+    },
+    {
+      "path": "scripts/revision_models.py",
+      "bytes": 5279,
+      "sha256": "6b9badf4dee5141fb48f2e1afeb0d41bc84b2b07a137f07e9acbba41897a74ee"
+    },
+    {
+      "path": "scripts/run_s1b_literal.py",
+      "bytes": 1122,
+      "sha256": "ce2815403683d584be0f03dd675d7541e81056e424ccaee731e2416ea9a589f1"
+    },
+    {
+      "path": "scripts/s1b_cache_reconstruction.py",
+      "bytes": 2933,
+      "sha256": "c493b32a5ea96c963355f5b4be6e2a25fa62cf972e3ace4f9625356ee2475644"
+    },
+    {
+      "path": "scripts/s1b_corrected.py",
+      "bytes": 6085,
+      "sha256": "3464ccd35a5e31a997f92f6abc869227f820ae77cbff1237642a331d7beb6ccb"
+    },
+    {
+      "path": "scripts/supplement_data_audit.py",
+      "bytes": 4818,
+      "sha256": "4b2a221484bcc5822930610266cc185aa2136e81c5802c5af02d73341212f2c5"
+    },
+    {
+      "path": "scripts/timestamp_event_sensitivity.py",
+      "bytes": 2397,
+      "sha256": "63abde04866bffc2fc47e05e9559ae226a9f01bdc6e8573ea5d07837581452df"
+    },
+    {
+      "path": "scripts/validate_fe_engine.py",
+      "bytes": 1732,
+      "sha256": "92d2c6447b63797a11d0490b8192d5caa22068d6827940f7427637ba920c6d0f"
+    },
+    {
+      "path": "scripts/validate_fresh_inputs.py",
+      "bytes": 1673,
+      "sha256": "2495920053f40e1829f979a7a0aa6055e541cfbceaee3c6e1735eecf73e9878f"
+    }
+  ],
+  "required_new_packaging": [
+    "Create provenance/README.txt (or another real file) so the directory exists after ZIP extraction. reproduce.py copies provenance/ even though analytical scripts never read its content.",
+    "Write a new current PACKAGE_MANIFEST.json reflecting only the new reviewer package. Do not reuse the v54 774-file manifest.",
+    "Provide a reviewer-facing README identifying source edition, full-raw versus quick-evidence scope, external raw archive and remaining missing SteamDB/original-simulation provenance limitations.",
+    "If retaining the old Windows launcher, preserve root start_reproduction.py, START_WINDOWS.cmd and verify_release.py; update documentation references and run launcher tests against the new manifest.",
+    "If replacing the launcher, give explicit raw/analysis/final stages followed by compare_v48, compare_audits, compare_manuscript. compare_audits expects comparison/ already created by compare_v48.",
+    "The original compare_manuscript is a labelled historical prose comparator, not an all-pass acceptance test for current v55 prose. Preserve/explain its documented historical differences."
+  ],
+  "optional_review_evidence": [
+    {
+      "source": "executed_run/corrected_analysis/item_classification_audit.csv",
+      "purpose": "Direct reviewer inspection of all item classifications and exclusion reasons; raw workflow regenerates it.",
+      "original_zip_compressed_bytes": 1764141
+    },
+    {
+      "source": "executed_run/tables/h3_index_construction_sensitivity.csv",
+      "purpose": "Direct index-construction output inspection; not needed as fitting input.",
+      "original_zip_compressed_bytes": 1328
+    },
+    {
+      "source": "executed_run/tables/h1_reconstruction.csv",
+      "purpose": "Direct H1 comparison output inspection.",
+      "original_zip_compressed_bytes": 270
+    },
+    {
+      "source": "executed_run/tables/revision_robustness.csv",
+      "purpose": "Direct empirical H2 model/cohort comparison inspection.",
+      "original_zip_compressed_bytes": 11123
+    }
+  ],
+  "can_omit_for_new_raw_run": [
+    "Entire executed_run/ (all results/intermediates are regenerated); retain only selected quick-test evidence elsewhere if useful.",
+    "Entire local_execution_record/; it documents earlier workstation attempts.",
+    "Old expected_v48 DOCX/PDF/PNG/PPTX/plans and all baseline assets not named in keep_files.",
+    "Old provenance/original_code/ and prior packaging manifests can be omitted as runtime dependencies; current scripts retain reconstruction labels, original S1b logic stays in inputs/recovered, and package origin/source hashes should be documented.",
+    "Old verification_v54 large check logs and historical receipts are not new test results; selected concise prior reports can be retained with clear historical labels.",
+    "RAW_MEMBER_HASHES.json is not a necessary additional reference because inputs/public_data_manifest.json already pins every raw CSV member."
+  ],
+  "external_requirements": {
+    "raw_zip": "counter-strike-market-sale-data.zip",
+    "bytes": 901195556,
+    "sha256": "e00557bd8dc6d5e1a09f8da36213039ac23950f9613e245db49c6ef564ce6df7",
+    "runtime": "64-bit Python3.12 and pinned requirements; full literal S1b stage uses16workers; resource minima not established by this audit"
+  },
+  "limitations": [
+    "This static dependency inventory is not proof that a new complete raw run succeeds.",
+    "The quick saved-evidence test must not claim fresh raw extraction, reclassification or new primary simulation.",
+    "SteamDB export remains missing; full Figures2/3 not regenerated.",
+    "Original submission-era simulation implementation/seed provenance remains unauthenticated.",
+    "Source release ORIGINAL_CODE claims and hashes require documentary provenance even if historical source-copy duplication is omitted."
+  ]
+}

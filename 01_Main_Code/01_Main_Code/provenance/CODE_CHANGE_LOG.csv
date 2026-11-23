@@ -1,0 +1,12 @@
+reviewer_comment,file,change,analysis_results_changed
+R2.2,compare_manuscript.py,Forward the optional actual-manuscript argument to the strict comparator.,No
+R2.2,revision1_comparator/compare_manuscript.py,"Read H3 targets from the approved clean DOCX and apply the existing calculation, selection and rounding rules; retain whole-document identity checking.",No
+R2.2,revision1_comparator/tests/test_comparator.py,Check corrected H3 agreement and require a numerical mismatch when a disposable manuscript reverts 4.82 to 4.81.,No
+R2.2,run_revision1.py,Check actual H3 manuscript values against retained evidence and report the computed scoped result.,No
+R2.2,revision1_validation/revision1_targets.json,Refresh actual clean-manuscript and reviewer-workbook identities; numerical H2 targets are unchanged.,No
+R2.2,revision1_comparator/SOURCE_PROVENANCE.json,Record the four authorized H3 display corrections and updated manuscript identities; original source-data hashes are unchanged.,No
+R2.2,revision1_reference/COSE_Manuscript_Clean_19Nov2026.docx,Use the author-approved clean manuscript containing only the four H3 display corrections.,No
+R2.2,revision1_reference/COSE_Reviewer_Response_Restart_18Nov2026.xlsx,Use the approved 15-comment response workbook with the corresponding R2.2 correction.,No
+R2.2,README.md; START_HERE.txt; revision1_comparator/README.txt; reports/EXECUTION_AND_DISCREPANCIES.md; proof/README.txt; provenance/README.txt,"Describe corrected H3 agreement, current proof and preserved historical records.",No
+R2.2,revision1_validation/validate_revision1.py,Accept current dotted Appendix Table A.2 and A.3 captions while retaining legacy labels; numerical parsing and comparisons are unchanged.,No
+R2.1; R2.2; R2.4,revision1_reference/; revision1_validation/revision1_targets.json; revision1_comparator/SOURCE_PROVENANCE.json,"Bind the verified editorial manuscript and matching 15-comment workbook; preserve all numerical targets, data, seeds and settings.",No

@@ -1,0 +1,62 @@
+{
+  "test_scope": "Validator control and rejection behaviour on copies; no scientific analysis rerun",
+  "all_required_tests_passed": true,
+  "full_manuscript_reproduction": "NOT_ESTABLISHED",
+  "cases": [
+    {
+      "case": "unchanged_control",
+      "expected": "MATCH with exit0",
+      "exit_code": 0,
+      "reviewer_requested_h2_agreement": "MATCH",
+      "test_passed": true
+    },
+    {
+      "case": "changed_beta",
+      "expected_failure": "H2.all.coefficient",
+      "exit_code": 1,
+      "observed_failure_codes": [
+        "H2.all.coefficient",
+        "H2.all.derived_percent",
+        "manuscript.H2.coefficient",
+        "scenario.all.neutral.step.baseline_coefficient",
+        "scenario.all.neutral.ramp7.baseline_coefficient",
+        "scenario.all.neutral.ramp21.baseline_coefficient",
+        "scenario.all.neutral.delay7.baseline_coefficient",
+        "scenario.all.neutral.delay14.baseline_coefficient",
+        "scenario.all.neutral.delay28.baseline_coefficient",
+        "scenario.all.neutral.distributed.baseline_coefficient",
+        "scenario.all.neutral.heterogeneous.baseline_coefficient",
+        "scenario.all.observed.step.baseline_coefficient",
+        "scenario.all.observed.ramp7.baseline_coefficient",
+        "scenario.all.observed.ramp21.baseline_coefficient",
+        "scenario.all.observed.delay7.baseline_coefficient",
+        "scenario.all.observed.delay14.baseline_coefficient",
+        "scenario.all.observed.delay28.baseline_coefficient",
+        "scenario.all.observed.distributed.baseline_coefficient",
+        "scenario.all.observed.heterogeneous.baseline_coefficient"
+      ],
+      "reviewer_requested_h2_agreement": "FAIL",
+      "test_passed": true
+    },
+    {
+      "case": "changed_floor",
+      "expected_failure": "scenario.all.neutral.step.floor_vs_curves",
+      "exit_code": 1,
+      "observed_failure_codes": [
+        "scenario.all.neutral.step.floor_vs_curves"
+      ],
+      "reviewer_requested_h2_agreement": "FAIL",
+      "test_passed": true
+    },
+    {
+      "case": "missing_file",
+      "expected_failure": "required_file.EMPIRICAL_RESPONSE_SPECIFICATIONS.csv",
+      "exit_code": 1,
+      "observed_failure_codes": [
+        "required_file.EMPIRICAL_RESPONSE_SPECIFICATIONS.csv"
+      ],
+      "reviewer_requested_h2_agreement": "FAIL",
+      "test_passed": true
+    }
+  ]
+}

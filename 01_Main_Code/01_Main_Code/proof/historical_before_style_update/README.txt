@@ -1,0 +1,1 @@
+Historical verification receipts for the H3-corrected manuscript before the 20 November 2026 writing-style update. These retain their original source identities. Current document checks are in proof/current; the combined package verification is in 06_Verification.

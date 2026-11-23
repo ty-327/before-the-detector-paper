@@ -1,0 +1,359 @@
+{
+  "unix_minus_text_seconds_counts": {
+    "-3600": 64343790,
+    "0": 40699686
+  },
+  "sample_disagreements": [
+    {
+      "file": "%27Blueberries%27%20Buckshot%20%7C%20NSWC%20SEAL.csv",
+      "date_text": "Mar 29 2021 01: +0",
+      "unix_timestamp": 1616976000,
+      "parsed_unix_utc": "2021-03-29 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "%27Blueberries%27%20Buckshot%20%7C%20NSWC%20SEAL.csv",
+      "date_text": "Mar 30 2021 01: +0",
+      "unix_timestamp": 1617062400,
+      "parsed_unix_utc": "2021-03-30 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "%27Medium%20Rare%27%20Crasswater%20%7C%20Guerrilla%20Warfare.csv",
+      "date_text": "Sep 22 2021 01: +0",
+      "unix_timestamp": 1632268800,
+      "parsed_unix_utc": "2021-09-22 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "%27Medium%20Rare%27%20Crasswater%20%7C%20Guerrilla%20Warfare.csv",
+      "date_text": "Sep 23 2021 01: +0",
+      "unix_timestamp": 1632355200,
+      "parsed_unix_utc": "2021-09-23 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "%27The%20Doctor%27%20Romanov%20%7C%20Sabre.csv",
+      "date_text": "Mar 30 2020 01: +0",
+      "unix_timestamp": 1585526400,
+      "parsed_unix_utc": "2020-03-30 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "%27The%20Doctor%27%20Romanov%20%7C%20Sabre.csv",
+      "date_text": "Mar 31 2020 01: +0",
+      "unix_timestamp": 1585612800,
+      "parsed_unix_utc": "2020-03-31 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "%27Two%20Times%27%20McCoy%20%7C%20TACP%20Cavalry.csv",
+      "date_text": "Mar 29 2021 01: +0",
+      "unix_timestamp": 1616976000,
+      "parsed_unix_utc": "2021-03-29 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "%27Two%20Times%27%20McCoy%20%7C%20TACP%20Cavalry.csv",
+      "date_text": "Mar 30 2021 01: +0",
+      "unix_timestamp": 1617062400,
+      "parsed_unix_utc": "2021-03-30 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "%27Two%20Times%27%20McCoy%20%7C%20USAF%20TACP.csv",
+      "date_text": "Mar 30 2020 01: +0",
+      "unix_timestamp": 1585526400,
+      "parsed_unix_utc": "2020-03-30 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "%27Two%20Times%27%20McCoy%20%7C%20USAF%20TACP.csv",
+      "date_text": "Mar 31 2020 01: +0",
+      "unix_timestamp": 1585612800,
+      "parsed_unix_utc": "2020-03-31 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "10%20Year%20Birthday%20Sticker%20Capsule.csv",
+      "date_text": "Aug 24 2022 01: +0",
+      "unix_timestamp": 1661299200,
+      "parsed_unix_utc": "2022-08-24 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "10%20Year%20Birthday%20Sticker%20Capsule.csv",
+      "date_text": "Aug 25 2022 01: +0",
+      "unix_timestamp": 1661385600,
+      "parsed_unix_utc": "2022-08-25 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "1st%20Lieutenant%20Farlow%20%7C%20SWAT.csv",
+      "date_text": "Mar 29 2021 01: +0",
+      "unix_timestamp": 1616976000,
+      "parsed_unix_utc": "2021-03-29 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "1st%20Lieutenant%20Farlow%20%7C%20SWAT.csv",
+      "date_text": "Mar 30 2021 01: +0",
+      "unix_timestamp": 1617062400,
+      "parsed_unix_utc": "2021-03-30 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "2020%20RMR%20Challengers.csv",
+      "date_text": "Mar 29 2021 01: +0",
+      "unix_timestamp": 1616976000,
+      "parsed_unix_utc": "2021-03-29 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "2020%20RMR%20Challengers.csv",
+      "date_text": "Mar 30 2021 01: +0",
+      "unix_timestamp": 1617062400,
+      "parsed_unix_utc": "2021-03-30 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "2020%20RMR%20Contenders.csv",
+      "date_text": "Mar 29 2021 01: +0",
+      "unix_timestamp": 1616976000,
+      "parsed_unix_utc": "2021-03-29 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "2020%20RMR%20Contenders.csv",
+      "date_text": "Mar 30 2021 01: +0",
+      "unix_timestamp": 1617062400,
+      "parsed_unix_utc": "2021-03-30 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "2020%20RMR%20Legends.csv",
+      "date_text": "Mar 29 2021 01: +0",
+      "unix_timestamp": 1616976000,
+      "parsed_unix_utc": "2021-03-29 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "2020%20RMR%20Legends.csv",
+      "date_text": "Mar 30 2021 01: +0",
+      "unix_timestamp": 1617062400,
+      "parsed_unix_utc": "2021-03-30 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "2021%20Community%20Sticker%20Capsule.csv",
+      "date_text": "Sep 17 2021 01: +0",
+      "unix_timestamp": 1631836800,
+      "parsed_unix_utc": "2021-09-17 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "2021%20Community%20Sticker%20Capsule.csv",
+      "date_text": "Sep 18 2021 01: +0",
+      "unix_timestamp": 1631923200,
+      "parsed_unix_utc": "2021-09-18 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "3rd%20Commando%20Company%20%7C%20KSK.csv",
+      "date_text": "Mar 30 2020 01: +0",
+      "unix_timestamp": 1585526400,
+      "parsed_unix_utc": "2020-03-30 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "3rd%20Commando%20Company%20%7C%20KSK.csv",
+      "date_text": "Mar 31 2020 01: +0",
+      "unix_timestamp": 1585612800,
+      "parsed_unix_utc": "2020-03-31 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "Aces%20High%20Pin.csv",
+      "date_text": "Mar 26 2018 01: +0",
+      "unix_timestamp": 1522022400,
+      "parsed_unix_utc": "2018-03-26 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "Aces%20High%20Pin.csv",
+      "date_text": "Mar 27 2018 01: +0",
+      "unix_timestamp": 1522108800,
+      "parsed_unix_utc": "2018-03-27 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Aquamarine%20Revenge%20(Battle-Scarred).csv",
+      "date_text": "May 27 2015 01: +0",
+      "unix_timestamp": 1432684800,
+      "parsed_unix_utc": "2015-05-27 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Aquamarine%20Revenge%20(Battle-Scarred).csv",
+      "date_text": "May 28 2015 01: +0",
+      "unix_timestamp": 1432771200,
+      "parsed_unix_utc": "2015-05-28 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Aquamarine%20Revenge%20(Factory%20New).csv",
+      "date_text": "May 27 2015 01: +0",
+      "unix_timestamp": 1432684800,
+      "parsed_unix_utc": "2015-05-27 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Aquamarine%20Revenge%20(Factory%20New).csv",
+      "date_text": "May 28 2015 01: +0",
+      "unix_timestamp": 1432771200,
+      "parsed_unix_utc": "2015-05-28 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Aquamarine%20Revenge%20(Field-Tested).csv",
+      "date_text": "May 27 2015 01: +0",
+      "unix_timestamp": 1432684800,
+      "parsed_unix_utc": "2015-05-27 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Aquamarine%20Revenge%20(Field-Tested).csv",
+      "date_text": "May 28 2015 01: +0",
+      "unix_timestamp": 1432771200,
+      "parsed_unix_utc": "2015-05-28 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Aquamarine%20Revenge%20(Minimal%20Wear).csv",
+      "date_text": "May 27 2015 01: +0",
+      "unix_timestamp": 1432684800,
+      "parsed_unix_utc": "2015-05-27 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Aquamarine%20Revenge%20(Minimal%20Wear).csv",
+      "date_text": "May 28 2015 01: +0",
+      "unix_timestamp": 1432771200,
+      "parsed_unix_utc": "2015-05-28 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Aquamarine%20Revenge%20(Well-Worn).csv",
+      "date_text": "May 27 2015 01: +0",
+      "unix_timestamp": 1432684800,
+      "parsed_unix_utc": "2015-05-27 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Aquamarine%20Revenge%20(Well-Worn).csv",
+      "date_text": "May 28 2015 01: +0",
+      "unix_timestamp": 1432771200,
+      "parsed_unix_utc": "2015-05-28 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Asiimov%20(Battle-Scarred).csv",
+      "date_text": "Apr 01 2019 01: +0",
+      "unix_timestamp": 1554076800,
+      "parsed_unix_utc": "2019-04-01 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Asiimov%20(Battle-Scarred).csv",
+      "date_text": "Apr 02 2019 01: +0",
+      "unix_timestamp": 1554163200,
+      "parsed_unix_utc": "2019-04-02 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Asiimov%20(Factory%20New).csv",
+      "date_text": "Apr 01 2019 01: +0",
+      "unix_timestamp": 1554076800,
+      "parsed_unix_utc": "2019-04-01 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Asiimov%20(Factory%20New).csv",
+      "date_text": "Apr 02 2019 01: +0",
+      "unix_timestamp": 1554163200,
+      "parsed_unix_utc": "2019-04-02 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Asiimov%20(Field-Tested).csv",
+      "date_text": "Apr 01 2019 01: +0",
+      "unix_timestamp": 1554076800,
+      "parsed_unix_utc": "2019-04-01 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Asiimov%20(Field-Tested).csv",
+      "date_text": "Apr 02 2019 01: +0",
+      "unix_timestamp": 1554163200,
+      "parsed_unix_utc": "2019-04-02 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Asiimov%20(Minimal%20Wear).csv",
+      "date_text": "Apr 01 2019 01: +0",
+      "unix_timestamp": 1554076800,
+      "parsed_unix_utc": "2019-04-01 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Asiimov%20(Minimal%20Wear).csv",
+      "date_text": "Apr 02 2019 01: +0",
+      "unix_timestamp": 1554163200,
+      "parsed_unix_utc": "2019-04-02 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Asiimov%20(Well-Worn).csv",
+      "date_text": "Apr 01 2019 01: +0",
+      "unix_timestamp": 1554076800,
+      "parsed_unix_utc": "2019-04-01 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Asiimov%20(Well-Worn).csv",
+      "date_text": "Apr 02 2019 01: +0",
+      "unix_timestamp": 1554163200,
+      "parsed_unix_utc": "2019-04-02 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Baroque%20Purple%20(Battle-Scarred).csv",
+      "date_text": "Mar 30 2020 01: +0",
+      "unix_timestamp": 1585526400,
+      "parsed_unix_utc": "2020-03-30 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Baroque%20Purple%20(Battle-Scarred).csv",
+      "date_text": "Mar 31 2020 01: +0",
+      "unix_timestamp": 1585612800,
+      "parsed_unix_utc": "2020-03-31 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Baroque%20Purple%20(Factory%20New).csv",
+      "date_text": "Mar 30 2020 01: +0",
+      "unix_timestamp": 1585526400,
+      "parsed_unix_utc": "2020-03-30 00:00:00+00:00",
+      "offset_seconds": -3600
+    },
+    {
+      "file": "AK-47%20%7C%20Baroque%20Purple%20(Factory%20New).csv",
+      "date_text": "Mar 31 2020 01: +0",
+      "unix_timestamp": 1585612800,
+      "parsed_unix_utc": "2020-03-31 00:00:00+00:00",
+      "offset_seconds": -3600
+    }
+  ],
+  "interpretation": "Historical implementation uses Unix seconds. Text timestamps explicitly show +0; disagreements are retained and text-date aggregation must be a separate sensitivity, not silently substituted."
+}

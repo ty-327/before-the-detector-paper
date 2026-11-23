@@ -1,0 +1,16 @@
+{
+  "package_status": "CANDIDATE",
+  "reviewer_requested_h2_agreement": "MATCH",
+  "h2_basis": "Fresh saved-evidence summary replay plus explicitly retained empirical profile fits compared with the actual current clean manuscript.",
+  "negative_cases": "Changed beta, changed floor and missing empirical table all rejected.",
+  "historical_comparison": {
+    "PASS": 12,
+    "MISMATCH": 4,
+    "NOT_VERIFIED": 1,
+    "H3": "UNRESOLVED",
+    "corpus_total_25432": "NOT_VERIFIED"
+  },
+  "full_manuscript_reproduction": "NOT_ESTABLISHED",
+  "scientific_sources_unchanged": true,
+  "source_or_correction_decision_required": true
+}
