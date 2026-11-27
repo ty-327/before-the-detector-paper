@@ -1,3 +1,0 @@
-Command: ["/workspace/scratch/e6c1950c91f3/cose_review_20261117/test_environment/bin/python", "/workspace/scratch/e6c1950c91f3/cose_reviewer_20261117/candidate_review_run/scripts/check_results.py", "--out", "/workspace/scratch/e6c1950c91f3/cose_reviewer_20261117/candidate_review_run/results", "--allow-missing-panel"]
-
-{"status": "PASS", "checks": 39992, "result_rows": 352, "curve_rows": 6608, "checker": "separately written arithmetic, quantile, Wilson, floor, bootstrap and CSV-denominator code; same agent, not independent human replication", "fresh_csv_rows_scanned": 0, "raw_denominator_check_this_execution": false}

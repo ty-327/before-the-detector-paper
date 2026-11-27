@@ -1,3 +1,0 @@
-Command: ["/workspace/scratch/e6c1950c91f3/claude_review_20261119/validation_env/bin/python", "/workspace/scratch/e6c1950c91f3/submission_build_20261119/staging/04_Code_and_Data/01_Main_Code/reviewer_tools/compare_review_results.py", "--generated", "/workspace/scratch/e6c1950c91f3/submission_build_20261119/code_work/final_replay/results", "--reference", "/workspace/scratch/e6c1950c91f3/submission_build_20261119/code_work/final_replay/reference_results", "--report", "/workspace/scratch/e6c1950c91f3/submission_build_20261119/code_work/final_replay/REFERENCE_COMPARISON.json"]
-
-PASS: 10/10 required tables; 260034 compared cells
